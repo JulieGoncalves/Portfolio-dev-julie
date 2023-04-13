@@ -6,6 +6,7 @@
     grid-template-rows: 1fr 1fr;
     border: solid 2px red;
     z-index: 12;
+   /* position:relative; */
 }
 
 .grid-row-1-column-1 {

@@ -1,0 +1,25 @@
+html {
+    /* cursor: none; */
+  }
+  
+  .circle {
+    border: #2d16c1 2px solid;
+    position: absolute;
+    width: 44px;
+    height: 44px;
+    /* top: 50%;
+    left: 50%; */
+    margin: -22px 0 0 -22px;
+    border-radius: 80%;
+    backface-visibility: hidden;
+  }
+  
+  .circleInt {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    margin: -4px 0 0 -4px;
+    border-radius: 80%;
+    background-color: #2d16c1;
+  }
+  

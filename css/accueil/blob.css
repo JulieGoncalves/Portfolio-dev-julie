@@ -21,10 +21,10 @@
     position: absolute;
     top: 40%;
     /* margin: auto; */
-    border: 3px solid rgb(202, 249, 32);
+    /* border: 3px solid rgb(202, 249, 32); */
     padding: 0 15%;
   }
   
   .grid-row-2-column-2  {
-  border: solid 2px #2d16c1;
+  /* border: solid 2px #2d16c1; */
   }

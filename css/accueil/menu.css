@@ -31,7 +31,66 @@
   overflow: hidden;
 }
 
-.bit-top {
+.blur {
+  position: absolute;
+  color: #ffffff;
+  font-family: "Overpass", sans-serif;
+  font-size: 64px;
+  letter-spacing: 20px;
+  margin: auto;
+  width: 100%;
+  filter: blur(4px);
+  cursor: none;
+  overflow: hidden;
+  text-align: center;
+  z-index: 3;
+}
+
+.focus {
+  position: relative;
+  color: #ffffff;
+  font-family: "Overpass", sans-serif;
+  font-size: 64px;
+  letter-spacing: 20px;
+  margin: auto;
+  width: 100%;
+  height: 70px;
+  filter: blur(0px);
+  cursor: none;
+  overflow: hidden;
+  text-align: center;
+  z-index: 2;
+}
+
+.ap {
+  letter-spacing: 13px;
+}
+
+.container {
+  /* border: solid rgb(116, 233, 163) 4px; */
+  position: relative;
+  height: auto;
+  width: 3fr;
+  overflow: hidden;
+  /* justify-content: center; */
+}
+
+/* .container-projet {
+  position: relative;
+top: 20%;
+} */
+
+body {
+  /* background: #ffc6f5; */
+  margin: 0;
+  padding: 0;
+  /* cursor: none; */
+  background: #ffc6f5;
+}
+
+/* FOCUS - cadre angles */
+
+/* .bit-top {
   position: absolute;
   left: 0%;
   top: 0%;
@@ -100,62 +159,4 @@
   height: 10px;
   width: 5px;
   background: #fff;
-}
-
-.blur {
-  position: absolute;
-  color: #ffffff;
-  font-family: "Overpass", sans-serif;
-  font-size: 64px;
-  letter-spacing: 20px;
-  margin: auto;
-  width: 100%;
-  filter: blur(4px);
-  cursor: none;
-  overflow: hidden;
-  text-align: center;
-  z-index: 3;
-}
-
-.focus {
-  position: relative;
-  color: #ffffff;
-  font-family: "Overpass", sans-serif;
-  font-size: 64px;
-  letter-spacing: 20px;
-  margin: auto;
-  width: 100%;
-  height: 70px;
-  filter: blur(0px);
-  cursor: none;
-  overflow: hidden;
-  text-align: center;
-  z-index: 2;
-}
-
-.ap {
-  letter-spacing: 13px;
-}
-
-.container {
-  border: solid rgb(116, 233, 163) 4px;
-  position: relative;
-  height: auto;
-  width: 3fr;
-  overflow: hidden;
-  /* justify-content: center; */
-}
-
-/* .container-projet {
-  position: relative;
-top: 20%;
 } */
-
-body {
-  /* background: #ffc6f5; */
-  margin: 0;
-  padding: 0;
-  /* cursor: none; */
-  background: #ffc6f5;
-}
-

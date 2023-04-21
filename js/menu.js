@@ -38,23 +38,25 @@
 		})
 	}
 	detectMouseMove();
-	
-	$(document).ready(function(){
-		$(".container").mouseenter(function(){
-			//Les éléments avec .cacher seront cachés
-			$('.circle').hide()
-			$('.circleInt').hide()
-		});
-		$(".container").mouseleave(function(){
-			 //Les éléments avec .afficher seront visibles
-			$('.circle').show()
-			$('.circleInt').show()
-		});
-	  });
-	
 
-})();
+// CURSEUR - VISIBLE - INVISBLE - CONTAINER	
 
 // Je veux que lorsque mon curseur entre dans le 'container' il disparaisse //
 // au survole de container > le curseur est invisible // 
+
+	// $(document).ready(function(){
+	// 	$(".container").mouseenter(function(){
+	// 		//Les éléments avec .cacher seront cachés
+	// 		$('.circle').hide()
+	// 		$('.circleInt').hide()
+	// 	});
+	// 	$(".container").mouseleave(function(){
+	// 		 //Les éléments avec .afficher seront visibles
+	// 		$('.circle').show()
+	// 		$('.circleInt').show()
+	// 	});
+	//   });
+	
+
+})();
 

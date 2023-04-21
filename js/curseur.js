@@ -2,7 +2,7 @@ var $circle = $('.circle');
 var $circleInt = $('.circleInt');
 
 function moveCircle(e) {
-	gsap.to($circle, 2, {
+	gsap.to($circle, 1, {
     css: {
       left: e.pageX,
       top: e.pageY

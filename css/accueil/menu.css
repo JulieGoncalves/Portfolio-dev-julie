@@ -138,19 +138,18 @@
 }
 
 .container {
-  border: solid rgb(36, 202, 102) 4px;
-  position: absolute;
-  height: 100%;
-  /* margin-top: 20vh; */
-  /* width: 100%; */
+  border: solid rgb(116, 233, 163) 4px;
+  position: relative;
+  height: auto;
   width: 3fr;
   overflow: hidden;
-  justify-content: center;
+  /* justify-content: center; */
 }
 
-.container-projet {
-  margin-top: 20%;
-}
+/* .container-projet {
+  position: relative;
+top: 20%;
+} */
 
 body {
   /* background: #ffc6f5; */
@@ -160,32 +159,3 @@ body {
   background: #ffc6f5;
 }
 
-.vertical-txt {
-  writing-mode: vertical-rl;
-  transform: rotate(180deg);
-  margin: auto;
-}
-
-/* BLOB */
-
-#container-blob {
-  position: relative;
-  /* display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 1fr;
- width: 100%;; */
-}
-
-#container-blob .blob {
-  position: relative;
-  filter: blur(5px);
-}
-
-#container-blob .bio {
-  text-align: center;
-  color: rgb(21, 21, 166);
-  position: absolute;
-  top: 40%;
-  margin: 0 15%;
-}

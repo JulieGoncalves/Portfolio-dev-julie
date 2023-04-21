@@ -1,0 +1,30 @@
+/* BLOB */
+
+#container-blob {
+    position: relative;
+    margin: auto;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1fr;
+   width: 100%;; */
+  }
+  
+  #container-blob .blob {
+    position: relative;
+    filter: blur(5px);
+  }
+  
+  #container-blob .bio {
+    text-align: center;
+    color: rgb(21, 21, 166);
+    position: absolute;
+    top: 40%;
+    /* margin: auto; */
+    border: 3px solid rgb(202, 249, 32);
+    padding: 0 15%;
+  }
+  
+  .grid-row-2-column-2  {
+  border: solid 2px #2d16c1;
+  }

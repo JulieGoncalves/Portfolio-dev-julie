@@ -12,6 +12,7 @@ html {
     margin: -22px 0 0 -22px;
     border-radius: 80%;
     backface-visibility: hidden;
+    z-index: 5;
   }
   
   .circleInt {
@@ -21,5 +22,6 @@ html {
     margin: -4px 0 0 -4px;
     border-radius: 80%;
     background-color: #2d16c1;
+    z-index: 6;
   }
   

@@ -1,0 +1,55 @@
+/* ----STYLE-BOUTONS-PALETTE----*/
+
+#palette1 {
+    border : 0;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(198, 208, 93);
+  }
+
+  #palette2 {
+    border : 0;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(12, 156, 166);
+  }
+
+  #palette3 {
+    border : 0;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(252, 89, 206);
+  }
+
+/* Palette rouge */
+.rouge {
+    color : red;
+}
+div#rel1.bio.rouge {
+    color : rgb(176, 32, 32);
+}
+body.rouge{
+    background-color: #f5bcbc;
+}
+
+/* Palette bleu */
+.bleu {
+    color : blue;
+}
+div#rel1.bio.bleu {
+    color : rgb(40, 175, 177);
+}
+body.bleu{
+    background-color: #edfffd;
+}
+
+/* Palette rose */
+.rose {
+    color : rgb(255, 0, 251);
+}
+div#rel1.bio.rose {
+    color : rgb(170, 40, 177);
+}
+body.rose{
+    background-color: #ffedfd;
+}

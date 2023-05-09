@@ -1,5 +1,13 @@
 <!DOCTYPE html>
 <html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Julie</title>
+</head>
+<body>
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -10,17 +18,28 @@
     <link href="css/accueil/curseur.css" rel="stylesheet" />
     <link href="css/accueil/barre-laterale.css" rel="stylesheet" />
     <link href="css/accueil/blob.css" rel="stylesheet" />
+    <link href="css/accueil/palette.css" rel="stylesheet" />
   </head>
-  <body>
+  <body class="changeCouleur">
+    
+    <!-- PALETTE -->
+    <div class="palette">
+      <button id="palette1"></button>
+      <button id="palette2"></button>
+      <button id="palette3"></button>
+    </div>
     <!-- CURSEUR -->
-    <div class="circle"></div>
-    <div class="circleInt"></div>
+    <div class="circle changeCouleur"></div>
+    <div class="circleInt changeCouleur"></div>
     <!-- GRID -->
     <div class="grid">
       <div class="grid-row-1-column-1">
-        <img class="icone" src="images/logo-fb.png">
-        <img class="icone" src="images/logo-insta.png">
-        <div class="vl"></div>
+        <a href=https://github.com/JulieGoncalves target="_blank">
+        <img class="icone" src="images/logo-github.png"></a>
+        <a href="https://www.linkedin.com/in/julie-goncalves-924033163/" target="_blank"><img class="icone" src="images/logo-linkedin.png"></a>
+        <a href="https://codepen.io/Julie-Goncalves" target="_blank"><img class="icone" src="images/logo-codepen.png"></a>
+        
+        <div class="vl changeCouleur"></div>
       </div>
       <div class="grid-row-1-column-2"></div>
       <!-- MENU -->
@@ -107,7 +126,7 @@
             </svg>
           </div>
           <!-- BIO -->
-          <div id="rel1" class="bio">
+          <div id="rel1" class="bio changeCouleur">
             Julie Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
             beatae deleniti inventore quibusdam cum esse blanditiis nesciunt! In
             cumque cupiditate corrupti adipisci rerum laudantium, quaerat,
@@ -118,10 +137,11 @@
       <div class="grid-row-2-column-3"></div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <script src="js/palette.js"></script>
     <script src="js/curseur.js"></script>
     <script src="js/menu.js"></script>
   </body>

@@ -1,14 +1,10 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio Julie</title>
-</head>
-<body>
-
   <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Julie</title>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -20,30 +16,54 @@
     <link href="css/accueil/blob.css" rel="stylesheet" />
     <link href="css/accueil/palette.css" rel="stylesheet" />
   </head>
+
   <body class="changeCouleur">
-    
-    <!-- PALETTE -->
-    <div class="palette">
-      <button id="palette1"></button>
-      <button id="palette2"></button>
-      <button id="palette3"></button>
-    </div>
     <!-- CURSEUR -->
     <div class="circle changeCouleur"></div>
     <div class="circleInt changeCouleur"></div>
     <!-- GRID -->
     <div class="grid">
-      <div class="grid-row-1-column-1">
-        <a href=https://github.com/JulieGoncalves target="_blank">
-        <img class="icone" src="images/logo-github.png"></a>
-        <a href="https://www.linkedin.com/in/julie-goncalves-924033163/" target="_blank"><img class="icone" src="images/logo-linkedin.png"></a>
-        <a href="https://codepen.io/Julie-Goncalves" target="_blank"><img class="icone" src="images/logo-codepen.png"></a>
-        
-        <div class="vl changeCouleur"></div>
+      <!---->
+      <div class="grid-row-1-column-1 rayures changeCouleur">1</div>
+      <div class="grid-row-1-column-2 changeCouleur">2</div>
+      <div class="grid-row-1-column-3 changeCouleur"></div>
+      <!---->
+      <div class="grid-row-2-column-1 changeCouleur">
+        <!--github-->
+        <a href="https://github.com/JulieGoncalves" target="_blank">
+          <svg class="icone" viewBox="0 0 100 100">
+            <path
+              class="changeCouleur"
+              d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"
+            />
+          </svg>
+        </a>
+        <!--linkedin-->
+        <a
+          href="https://www.linkedin.com/in/julie-goncalves-924033163/"
+          target="_blank"
+          ><svg class="icone" viewBox="0 0 50 50">
+            <path
+              class="changeCouleur"
+              d="M41,4H9C6.24,4,4,6.24,4,9v32c0,2.76,2.24,5,5,5h32c2.76,0,5-2.24,5-5V9C46,6.24,43.76,4,41,4z M17,20v19h-6V20H17z M11,14.47c0-1.4,1.2-2.47,3-2.47s2.93,1.07,3,2.47c0,1.4-1.12,2.53-3,2.53C12.2,17,11,15.87,11,14.47z M39,39h-6c0,0,0-9.26,0-10 c0-2-1-4-3.5-4.04h-0.08C27,24.96,26,27.02,26,29c0,0.91,0,10,0,10h-6V20h6v2.56c0,0,1.93-2.56,5.81-2.56 c3.97,0,7.19,2.73,7.19,8.26V39z"
+            />
+          </svg>
+        </a>
+        <!--codepen-->
+        <a href="https://codepen.io/Julie-Goncalves" target="_blank">
+          <svg class="icone" viewBox="0 0 50 50">
+            <path
+              class="changeCouleur"
+              d="M 25 2.8125 L 24.464844 3.15625 L 3 16.796875 L 3 33.203125 L 25 47.1875 L 47 33.203125 L 47 16.796875 Z M 25 5.1875 L 45 17.894531 L 45 32.105469 L 25 44.8125 L 5 32.105469 L 5 17.894531 Z M 24 8.128906 L 7.761719 18.449219 L 15.582031 23.871094 L 24 18.136719 Z M 26 8.128906 L 26 18.136719 L 26.4375 18.433594 L 34.417969 23.871094 L 42.238281 18.449219 Z M 22 11.769531 L 22 17.078125 L 15.59375 21.445313 L 11.375 18.519531 Z M 28 11.769531 L 38.625 18.519531 L 34.40625 21.441406 L 28 17.078125 Z M 25 19.8125 L 17.300781 25.0625 L 25 30.398438 L 25.570313 30.003906 L 32.699219 25.0625 Z M 7 20.292969 L 7 29.722656 L 13.859375 25.046875 L 12.660156 24.21875 Z M 43 20.296875 L 36.140625 25.046875 L 37.34375 25.871094 L 43 29.722656 Z M 25 22.234375 L 29.167969 25.078125 L 25 27.964844 L 20.832031 25.078125 Z M 9 24.113281 L 10.328125 25.035156 L 9 25.9375 Z M 41 24.113281 L 41 25.9375 L 39.671875 25.035156 Z M 15.574219 26.238281 L 15.003906 26.625 L 7.773438 31.558594 L 24 41.871094 L 24 32.078125 Z M 34.425781 26.238281 L 26 32.078125 L 26 41.871094 L 42.226563 31.558594 Z M 15.5625 28.667969 L 22 33.125 L 22 38.230469 L 11.40625 31.5 Z M 34.4375 28.667969 L 38.59375 31.5 L 28 38.230469 L 28 33.125 Z"
+            />
+          </svg>
+        </a>
+
+        <div class="vertical-ligne changeCouleur"></div>
       </div>
-      <div class="grid-row-1-column-2"></div>
+      <div class="grid-row-2-column-2"></div>
       <!-- MENU -->
-      <div class="grid-row-1-column-3">
+      <div class="grid-row-2-column-3">
         <div class="container">
           <div class="top-side"></div>
           <div class="hover">
@@ -82,9 +102,11 @@
           </div>
         </div>
       </div>
-      <div class="grid-row-2-column-1 vertical-txt">developpeuse web</div>
+      <div class="grid-row-3-column-1 vertical-txt changeCouleur">
+        julie gonçalves
+      </div>
 
-      <div class="grid-row-2-column-2">
+      <div class="grid-row-3-column-2">
         <!-- BLOB -->
         <div id="container-blob">
           <div id="abs1" class="blob">
@@ -97,14 +119,8 @@
             >
               <defs>
                 <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-                  <stop
-                    offset="0%"
-                    style="stop-color: rgb(255, 255, 255)"
-                  ></stop>
-                  <stop
-                    offset="100%"
-                    style="stop-color: rgb(255, 145, 235)"
-                  ></stop>
+                  <stop class="couleur1Blob" offset="0%"></stop>
+                  <stop class="changeCouleur" offset="100%"></stop>
                 </linearGradient>
               </defs>
               <path fill="url(#gradient)">
@@ -126,23 +142,34 @@
             </svg>
           </div>
           <!-- BIO -->
-          <div id="rel1" class="bio changeCouleur">
-            Julie Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
-            beatae deleniti inventore quibusdam cum esse blanditiis nesciunt! In
-            cumque cupiditate corrupti adipisci rerum laudantium, quaerat,
-            culpa, recusandae dolorem corporis minus!
+          <div id="rel1" class="changeCouleur bio">
+            DEVELOPPEUSE
+            <br />FRONT-END
+            <p class="para">
+              psum dolor sit amet consectetur adipisicing elit. Iure beatae
+              deleniti inventore quibusdam cum esse blanditiis nesciunt! In
+              cumque cupiditate corrupti adipisci rerum laudantium, quaerat,
+              culpa, recusandae dolorem corporis minus!
+            </p>
           </div>
         </div>
       </div>
-      <div class="grid-row-2-column-3"></div>
+      <div class="grid-row-1-column-3">
+        <!-- PALETTE -->
+        <div class="palette">
+          <button id="palette1"></button>
+          <button id="palette2"></button>
+          <button id="palette3"></button>
+        </div>
+      </div>
+      <div class="grid-row-3-column-3">4</div>
     </div>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> -->
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script> -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
-    <script src="js/palette.js"></script>
+
     <script src="js/curseur.js"></script>
     <script src="js/menu.js"></script>
+    <script src="js/palette.js"></script>
   </body>
 </html>

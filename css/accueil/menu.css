@@ -4,8 +4,6 @@
   position: absolute;
   height: 100vh;
   width: 100%;
-  background: #ffc6f5;
-  /* background: #ffc6f5 url(light-paper-fibers.png) left top repeat; */
   z-index: 3;
   overflow: hidden;
   /*border: 2px solid rgb(20, 243, 236);*/
@@ -15,7 +13,6 @@
   position: absolute;
   height: 100%;
   width: 100%;
-  background: #ffc6f5;
   /*overflow: hidden;*/
   z-index: 3;
   /*border: 1px solid red;*/
@@ -24,7 +21,7 @@
 .hover {
   position: absolute;
   float: left;
-  height: 70px;
+  height: 40px;
   width: 70%;
   margin: 0 15%;
   cursor: none;
@@ -33,9 +30,8 @@
 
 .blur {
   position: absolute;
-  color: #ffffff;
   font-family: "Overpass", sans-serif;
-  font-size: 64px;
+  font-size: 40px;
   letter-spacing: 20px;
   margin: auto;
   width: 100%;
@@ -48,13 +44,12 @@
 
 .focus {
   position: relative;
-  color: #ffffff;
   font-family: "Overpass", sans-serif;
-  font-size: 64px;
+  font-size: 40px;
   letter-spacing: 20px;
   margin: auto;
   width: 100%;
-  height: 70px;
+  height: 40px;
   filter: blur(0px);
   cursor: none;
   overflow: hidden;
@@ -72,91 +67,14 @@
   height: auto;
   width: 3fr;
   overflow: hidden;
-  /* justify-content: center; */
 }
 
-/* .container-projet {
-  position: relative;
-top: 20%;
-} */
-
 body {
-  /* background: #ffc6f5; */
   margin: 0;
   padding: 0;
   /* cursor: none; */
-  background: #ffc6f5;
 }
 
-/* FOCUS - cadre angles */
-
-/* .bit-top {
-  position: absolute;
-  left: 0%;
-  top: 0%;
-  height: 5px;
-  width: 10px;
-  background: #fff;
+.grid-row-2-column-3 {
+  margin: 0 0 0 auto;
 }
-
-.bit-top-left {
-  position: absolute;
-  left: 0%;
-  top: 5px;
-  height: 5px;
-  width: 5px;
-  background: #fff;
-}
-
-.bit-top-right {
-  position: absolute;
-  right: 0%;
-  top: 0%;
-  height: 5px;
-  width: 10px;
-  background: #fff;
-}
-
-.bit-top-right-2 {
-  position: absolute;
-  right: 0%;
-  top: 0px;
-  height: 10px;
-  width: 5px;
-  background: #fff;
-}
-
-.bit-bottom-left {
-  position: absolute;
-  bottom: 0%;
-  left: 0px;
-  height: 10px;
-  width: 5px;
-  background: #fff;
-}
-
-.bit-bottom-left-2 {
-  position: absolute;
-  bottom: 0%;
-  left: 0px;
-  height: 5px;
-  width: 10px;
-  background: #fff;
-}
-
-.bit-bottom-right {
-  position: absolute;
-  bottom: 0%;
-  right: 0px;
-  height: 5px;
-  width: 10px;
-  background: #fff;
-}
-.bit-bottom-right-2 {
-  position: absolute;
-  bottom: 0%;
-  right: 0px;
-  height: 10px;
-  width: 5px;
-  background: #fff;
-} */

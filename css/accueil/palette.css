@@ -1,7 +1,11 @@
 /* ----STYLE-BOUTONS-PALETTE----*/
 
 .palette {
-  margin: 7px 5px 5px 80%;
+  border: rgb(255, 238, 0) 2px solid;
+  padding: 5% 5%;
+  text-align: end;
+  /* display: inline; */
+  /* position:absolute; */
 }
 
 #palette1,
@@ -81,7 +85,7 @@ body {
 }
 
 .rose {
-  stop-color: rgb(255, 145, 235);
+  stop-color: #f05cd5;
 }
 
 /* menu */
@@ -209,7 +213,7 @@ body.vert {
 }
 
 .noir {
-  stop-color: rgb(57, 55, 55);
+  stop-color: #cc1c08;
 }
 
 body.noir {

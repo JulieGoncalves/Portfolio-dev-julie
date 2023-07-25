@@ -18,13 +18,17 @@
     //fonction dormir//
     // Initial container width
     var containerHeight = $(".container").outerHeight();
+
     document.addEventListener("mousemove", function (event) {
+      const rect = $(".container").offset();
+      theTop = event.pageY - rect.top;
+      console.log(theTop);
       // event.page = evenement qui recupere la position de ma souris
       $(".hover").css({
         // top <=> y
         // left <=> x
 
-        top: event.pageY, // On veut que la cible commence verticalement au niveau de la souris
+        top: event.pageY - rect.top, // On veut que la cible commence verticalement au niveau de la souris
       });
       $(".top-side").css({
         height: event.pageY, // On veut que la zone du haut s'arrete verticalement au niveau de la souris
@@ -58,3 +62,6 @@
   // 	});
   //   });
 })();
+
+// je veux une zone de nettete d une hauteur de 40 (et d une largeur de la taille du mot) au passage de la souris.
+// j

@@ -1,5 +1,12 @@
 /* grid-row-1-column-1 */
 
+.rayures {
+background-size: 15px 15px;
+background-position: 100px 100px;
+}
+
+/* grid-row-2-column-1 */
+
 .icone {
   position: relative;
   display: block;

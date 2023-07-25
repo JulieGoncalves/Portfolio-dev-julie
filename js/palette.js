@@ -12,7 +12,7 @@ btnVert.addEventListener("click", function () {
 
   elementsDeCouleur.forEach(function (element) {
     element.classList.remove("rose");
-    element.classList.remove("bleu");
+    element.classList.remove("noir");
     element.classList.add("vert");
   });
   paletteActive = "vert";
@@ -23,7 +23,7 @@ btnRose.addEventListener("click", function () {
     return;
   }
   elementsDeCouleur.forEach(function(element) {
-  element.classList.remove("bleu");
+  element.classList.remove("noir");
   element.classList.remove("vert");
   element.classList.add("rose");
 });

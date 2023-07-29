@@ -1,67 +1,56 @@
 (function () {
   var focusZoneWidth = "100%";
   var focusZoneHeight = 40;
-  var addEvent = function (object, type, callback) {
-    //fonction travaille avec les param qu on lui donne/ ecrire avec un stylo//
-    // On s'assure que Object ne soit pas null//
-    if (object == null || typeof object == "undefined") return;
-    if (object.addEventListener) {
-      object.addEventListener(type, callback, false); // tous les autres navigateurs //
-    } else if (object.attachEvent) {
-      object.attachEvent("on" + type, callback); // internet explorer ie et Opera//
-    } else {
-      object["on" + type] = callback;
-    }
-  };
+
+  var isMouseOutsideContainer = true;
 
   function detectMouseMove() {
-    //fonction dormir//
     // Initial container width
     var containerHeight = $(".container").outerHeight();
+    var containerWidth = $(".container").outerWidth();
 
-    document.addEventListener("mousemove", function (event) {
-      const rect = $(".container").offset();
-      theTop = event.pageY - rect.top;
-      console.log(theTop);
-      // event.page = evenement qui recupere la position de ma souris
-      $(".hover").css({
-        // top <=> y
-        // left <=> x
+    document.addEventListener("mousemove", function (eventMouseMove) {
+      const position = $(".container").offset();
+      theTop = position.top;
+      theLeft = position.left;
+      // console.log(theLeft);
 
-        top: event.pageY - rect.top, // On veut que la cible commence verticalement au niveau de la souris
-      });
-      $(".top-side").css({
-        height: event.pageY, // On veut que la zone du haut s'arrete verticalement au niveau de la souris
-      });
-      // On calcule la nouvelle hauteur de la zone du bas
-      var bottomHeight = containerHeight - (event.pageY + focusZoneHeight);
-      $(".bottom-side").css({
-        top: focusZoneHeight + event.pageY, // nouvelle posisition verticale de la zone du bas
-        // cad, la position de la souris plus la hauteur de la zone nette
-        height: bottomHeight, // on applique
-      });
+      if (
+        eventMouseMove.pageX < theLeft ||
+        eventMouseMove.pageX > theLeft + containerWidth
+      ) {
+        console.log("a l exterieur horizontal");
+        // Quand ma souris est a l exterieur de notre container on veut que notre zone de floue haute prenne toute la hauteur du container, et la zone de floue du bas soit a 0.
+
+        isMouseOutsideContainer = true;
+        $(".top-side").css({
+          height: containerHeight,
+        });
+        $(".bottom-side").css({
+          height: 0,
+        });
+      } else {
+        console.log("a l interieur horizontal");
+        // event.page = evenement qui recupere la position de ma souris
+        $(".hover").css({
+          // top <=> y
+          // left <=> x
+          top: eventMouseMove.pageY - theTop, // On veut que la cible commence verticalement au niveau de la souris
+        });
+        $(".top-side").css({
+          height: eventMouseMove.pageY - theTop, // On veut que la zone du haut s'arrete verticalement au niveau de la souris
+        });
+
+        // On calcule la nouvelle hauteur de la zone du bas
+        var bottomHeight =
+          containerHeight - (eventMouseMove.pageY - theTop + focusZoneHeight);
+        $(".bottom-side").css({
+          top: focusZoneHeight + eventMouseMove.pageY - theTop, // nouvelle posisition verticale de la zone du bas
+          // cad, la position de la souris plus la hauteur de la zone nette
+          height: bottomHeight, // on applique
+        });
+      }
     });
   }
   detectMouseMove();
-
-  // CURSEUR - VISIBLE - INVISBLE - CONTAINER
-
-  // Je veux que lorsque mon curseur entre dans le 'container' il disparaisse //
-  // au survole de container > le curseur est invisible //
-
-  // $(document).ready(function(){
-  // 	$(".container").mouseenter(function(){
-  // 		//Les éléments avec .cacher seront cachés
-  // 		$('.circle').hide()
-  // 		$('.circleInt').hide()
-  // 	});
-  // 	$(".container").mouseleave(function(){
-  // 		 //Les éléments avec .afficher seront visibles
-  // 		$('.circle').show()
-  // 		$('.circleInt').show()
-  // 	});
-  //   });
 })();
-
-// je veux une zone de nettete d une hauteur de 40 (et d une largeur de la taille du mot) au passage de la souris.
-// j

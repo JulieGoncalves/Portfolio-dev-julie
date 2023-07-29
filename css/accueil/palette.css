@@ -90,11 +90,11 @@ body {
 /* menu */
 
 .top-side {
-  background: #c0009d;
+  background: #ffc6f5;
 }
 
 .bottom-side {
-  background: #00c02a;
+  background: #ffc6f5;
 }
 
 .blur {
@@ -165,6 +165,14 @@ body.vert {
   font-size: 30px;
   border: 3px solid rgb(202, 249, 32);
   padding: 0 15%;
+}
+
+.bottom-side.vert {
+  background: #ffdd00;
+}
+
+.top-side.vert {
+  background:#ffdd00;
 }
 
 /* ----PALETTE-NOIRE----*/

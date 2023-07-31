@@ -14,7 +14,6 @@
       theTop = position.top;
       theLeft = position.left;
       // console.log(theLeft);
-
       if (
         eventMouseMove.pageX < theLeft ||
         eventMouseMove.pageX > theLeft + containerWidth
@@ -33,19 +32,21 @@
         console.log("a l interieur horizontal");
         // event.page = evenement qui recupere la position de ma souris
         $(".hover").css({
-          // top <=> y
-          // left <=> x
           top: eventMouseMove.pageY - theTop, // On veut que la cible commence verticalement au niveau de la souris
         });
         $(".top-side").css({
-          height: eventMouseMove.pageY - theTop, // On veut que la zone du haut s'arrete verticalement au niveau de la souris
+          height: eventMouseMove.pageY - theTop - focusZoneHeight / 2, // On veut que la zone du haut s'arrete verticalement au niveau de la souris
         });
 
         // On calcule la nouvelle hauteur de la zone du bas
         var bottomHeight =
-          containerHeight - (eventMouseMove.pageY - theTop + focusZoneHeight);
+          containerHeight - (eventMouseMove.pageY - theTop + focusZoneHeight - focusZoneHeight / 2);
         $(".bottom-side").css({
-          top: focusZoneHeight + eventMouseMove.pageY - theTop, // nouvelle posisition verticale de la zone du bas
+          top:
+            focusZoneHeight +
+            eventMouseMove.pageY -
+            theTop -
+            focusZoneHeight / 2, // nouvelle posisition verticale de la zone du bas
           // cad, la position de la souris plus la hauteur de la zone nette
           height: bottomHeight, // on applique
         });

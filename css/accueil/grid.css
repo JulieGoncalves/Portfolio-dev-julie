@@ -69,6 +69,7 @@
   }
   
   .grid-row-3-column-2  {
+    padding: 0 5% 0 5% ;
     border: solid 2px #2d16c1;
     grid-column-start: 2;
     grid-column-end: 3;

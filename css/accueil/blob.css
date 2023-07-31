@@ -1,40 +1,64 @@
 /* BLOB */
 
 #container-blob {
-    position: relative;
-    margin: auto;
-    /* display: flex;
+  position: relative;
+  margin: auto;
+  /* display: flex;
     justify-content: center;
     align-items: center;
     height: 1fr;
    width: 100%;; */
-  }
-  
-  #container-blob .blob {
-    position: relative;
-    filter: blur(5px);
-  }
-  
-  #container-blob .bio {
-    text-align: center;
-    color: rgb(21, 21, 166);
-    position: absolute;
-    top: 40%;
-    font-family: 'Bodoni Moda', serif;
-    font-weight: bold;
-    font-size: 30px;
-    /* margin: auto; */
-    border: 3px solid rgb(202, 249, 32);
-    padding: 0 15%;
-  }
-  
-  #rel1 .para{
-    font-size: 15px;
-    font-weight:lighter;
-  }
-  
-  .grid-row-2-column-2  {
-  border: solid 2px #2d16c1;
-  }
+}
 
-  
+#container-blob .blob {
+  position: relative;
+  filter: blur(5px);
+}
+
+#container-blob .bio {
+  text-align: center;
+  color: rgb(21, 21, 166);
+  position: absolute;
+  top: 40%;
+  font-family: "Bodoni Moda", serif;
+  font-weight: bold;
+  font-size: 30px;
+  /* margin: auto; */
+  border: 3px solid rgb(202, 249, 32);
+  padding: 0 15%;
+}
+
+#rel1 .para {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.grid-row-2-column-2 {
+  border: solid 2px #2d16c1;
+}
+
+.titres {
+  border: solid 2px red;
+  text-align: justify;
+}
+
+.h1-l1 {
+  font-size: 150px;
+}
+
+.h1-l2 {
+  font-size: 90px;
+}
+
+.h1-l3 {
+  font-size: 110px;
+  font-style: italic;
+}
+
+.titres h1 {
+  font-family: "Playfair Display";
+  text-align: justify;
+  text-transform: uppercase;
+  line-height: 10px;
+  display: block;
+}

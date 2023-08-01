@@ -16,16 +16,18 @@
 }
 
 #container-blob .bio {
-  text-align: center;
+  vertical-align: middle;
+  text-align: justify;
   color: rgb(21, 21, 166);
   position: absolute;
   top: 40%;
   font-family: "Bodoni Moda", serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 25px;
   /* margin: auto; */
   border: 3px solid rgb(202, 249, 32);
   padding: 0 15%;
+  margin: -20% auto ;
 }
 
 #rel1 .para {
@@ -61,4 +63,8 @@
   text-transform: uppercase;
   line-height: 10px;
   display: block;
+}
+
+.tt {
+  text-align: end;
 }

@@ -1,5 +1,10 @@
 /* COULEURS */
 
+* {
+  margin:0;
+  padding:0;
+  }
+
 /* palette de couleurs 1  */
 html {
   color: #fff;

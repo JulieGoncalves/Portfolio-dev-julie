@@ -17,6 +17,7 @@
     <link href="css/accueil/blob.css" rel="stylesheet" />
     <link href="css/accueil/palette.css" rel="stylesheet" />
     <!-- FONTS -->
+
     <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
     <link
@@ -25,7 +26,7 @@
     />
   </head>
 
-  <body class="changeCouleur">
+  <body>
     <!-- CURSEUR -->
     <div class="circle changeCouleur"></div>
     <div class="circleInt changeCouleur"></div>
@@ -110,7 +111,6 @@
         <div class="vertical-ligne"></div>
         <div class="vertical-txt">julie gonçalves</div>
       </div>
-
       <div class="grid-row-3-column-2">
         <!-- BLOB -->
         <div id="container-blob">
@@ -157,7 +157,8 @@
               <h1 class="h1-l3">end</h1>
             </div>
             <p class="para">
-              "A coeur vaillant rien d'impossible" <br class="tt">Jacques Coeur
+              "A coeur vaillant rien d'impossible" <br class="tt" />Jacques
+              Coeur
             </p>
           </div>
         </div>
@@ -170,13 +171,75 @@
           <button id="palette3"></button>
         </div>
       </div>
-      <div class="grid-row-3-column-3">4</div>
-      <div class="grid-row-4-column-1 text-bottom">Julie Goncalves, developpeuse front-end, basee à Paris, autodidacte et créative</div>
+      <div class="grid-row-3-column-3"></div>
+      <div class="grid-row-4-column-1 text-bottom">
+        <div>
+          Julie Goncalves, developpeuse front-end, basee à Paris, autodidacte et
+          créative
+        </div>
+      </div>
+      <!-- SVG - boule de cristal -->
+      <svg
+        version="1.2"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 595 822"
+        width="595"
+        height="822"
+      >
+        <title>Nouveau projet</title>
+        <defs>
+          <radialGradient
+            id="g1"
+            cx="300.5"
+            cy="273.5"
+            r="137.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset=".165" stop-color="#ffffff" />
+            <stop offset=".33" stop-color="#fef1fe" />
+            <stop offset="1" stop-color="#f89df8" />
+          </radialGradient>
+          <linearGradient
+            id="g2"
+            x1="163"
+            y1="273.5"
+            x2="438"
+            y2="273.5"
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop offset="0" stop-color="#fdd4fd" />
+            <stop offset="1" stop-color="#ffffff" />
+          </linearGradient>
+        </defs>
+        <style>
+          .s0 {
+            fill: #000000;
+          }
+          .s1 {
+            fill: url(#g1);
+            stroke: url(#g2);
+            stroke-miterlimit: 100;
+            stroke-width: 2.4;
+          }
+        </style>
+        <path
+          id="Calque 2"
+          class="s0"
+          d="m307.2 440.1c-52.9 2.9-102-8-105.6-25.8-3.8-19.4 47.1-36.3 108.1-36.3 55.1 0 92.5 14.2 88.6 30.6-3.7 15.3-42.7 28.9-91.1 31.5z"
+        />
+        <path
+          id="Forme 1"
+          class="s1"
+          d="m300.5 411c-76 0-137.5-61.5-137.5-137.5 0-76 61.5-137.5 137.5-137.5 76 0 137.5 61.5 137.5 137.5 0 76-61.5 137.5-137.5 137.5z"
+        />
+      </svg>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
 
+    <script src="js/texte-courbe.js"></script>
+    <script src="js/typing.js"></script>
     <script src="js/curseur.js"></script>
     <script src="js/menu.js"></script>
     <script src="js/palette.js"></script>

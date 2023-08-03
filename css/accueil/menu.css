@@ -62,7 +62,7 @@
 }
 
 .container {
-  border: solid rgb(116, 233, 163) 4px;
+  /* border: solid rgb(116, 233, 163) 4px; */
   position: relative;
   height: auto;
   width: 3fr;

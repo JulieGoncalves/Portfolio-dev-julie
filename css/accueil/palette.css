@@ -12,12 +12,13 @@
 #palette2,
 #palette3 {
   border: 0;
-  height: 20px;
-  width: 20px;
+  height: 18px;
+  width: 18px;
+  border-radius: 50%;
 }
 
 #palette1 {
-  background-color: rgb(11, 159, 28);
+  background-color: #2d16c1;
 }
 
 #palette2 {
@@ -42,22 +43,6 @@ body {
 
 .vertical-txt {
   color: #2d16c1;
-}
-
-.rayures {
-  background: linear-gradient(
-    45deg,
-    #2d16c1 5%,
-    #ffc6f5 5%,
-    #ffc6f5 45%,
-    #2d16c1 45%,
-    #2d16c1 55%,
-    #ffc6f5 55%,
-    #ffc6f5 95%,
-    #2d16c1 95%
-  );
-  background-size: 15px 15px;
-  background-position: 100 100;
 }
 
 /* logos */

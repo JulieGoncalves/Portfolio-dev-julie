@@ -8,7 +8,7 @@
 /* palette de couleurs 1  */
 html {
   color: #fff;
-  color: #ffc6f5;
+  color: rgb(255, 198, 245);
   color: #2d16c1;
 }
 
@@ -20,3 +20,10 @@ html {
 }
 
 /* FONTS */
+
+h2{
+  color: rgb(21, 21, 166);
+  font-family: "Bodoni Moda", serif;
+  font-style: italic; 
+  text-align: end;
+}

@@ -3,7 +3,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 5fr 3fr;
-  grid-template-rows: auto auto auto auto auto auto;
+  grid-template-rows: repeat(auto);
   grid-template-rows: none;
   grid-auto-rows: auto;
   z-index: 12;
@@ -88,18 +88,12 @@ padding-right: 10%;
   grid-area: 4 / 3 / 5 / 4; 
 }
 
-/* -- A PROPOS -- */
-
-.grid-row-5-column-1,.grid-row-5-column-2,.grid-row-5-column-3{
-  margin-top: 150px;
-}
-
 .grid-row-5-column-1 {
-  background-color: #24c116;
   border: solid 2px #1627c1;
   grid-area: 5 / 1 / 6 / 2; 
 }
 
+/* h2 */
 .grid-row-5-column-2 {
   border: solid 2px #1627c1;
   grid-area: 5 / 2 / 6 / 3; 
@@ -110,24 +104,54 @@ padding-right: 10%;
   grid-area: 5 / 3 / 6 / 4; 
 }
 
-/* -- FORMULAIRE -- */
+/* -- A PROPOS -- */
 
 .grid-row-6-column-1,.grid-row-6-column-2,.grid-row-6-column-3{
   margin-top: 150px;
 }
 
 .grid-row-6-column-1 {
-  border: solid 2px #1627c1;
-  grid-area: 6 / 1 / 7 / 2; 
+  border:solid 2px #1627c1;
 }
 
-/* -- formulaire de contact -- */
 .grid-row-6-column-2 {
-  border: solid 2px #1627c1;
-  grid-area: 6 / 2 / 7 / 3; 
+  border:solid 2px #1627c1;
 }
 
 .grid-row-6-column-3 {
+  border:solid 2px #1627c1;
+}
+
+.grid-row-7-column-1{
+  border:solid 2px #1627c1;
+}
+
+/* h2 */
+.grid-row-7-column-2{
+  border:solid 2px #1627c1;
+}
+
+.grid-row-7-column-3{
+  border:solid 2px #1627c1;
+}
+/* -- FORMULAIRE -- */
+
+.grid-row-8-column-1,.grid-row-8-column-2,.grid-row-8-column-3{
+  margin-top: 150px;
+}
+
+.grid-row-8-column-1 {
   border: solid 2px #1627c1;
-  grid-area: 6 / 3 / 7 / 4; 
+  grid-area: 8 / 1 / 9 / 2; 
+}
+
+/* -- formulaire de contact -- */
+.grid-row-8-column-2 {
+  border: solid 2px #1627c1;
+  grid-area: 8 / 2 / 9 / 3; 
+}
+
+.grid-row-8-column-3 {
+  border: solid 2px #1627c1;
+  grid-area: 8 / 3 / 9 / 4; 
 }

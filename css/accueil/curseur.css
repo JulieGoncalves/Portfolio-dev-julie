@@ -9,7 +9,7 @@ html {
     height: 8px;
     margin: -4px 0 0 -4px;
     border-radius: 80%;
-    z-index: 6;
+    z-index: 20;
     pointer-events: none;
   }
   
@@ -20,7 +20,7 @@ html {
     margin: -20px 0 0 -20px;
     border-radius: 80%;
     backface-visibility: hidden;
-    z-index: 5;
+    z-index: 20;
     pointer-events: none;
   }
 

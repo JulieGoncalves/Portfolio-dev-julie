@@ -1,9 +1,17 @@
 /* ----STYLE-BOUTONS-PALETTE----*/
 
+h1,h2 {
+  color: rgb(21, 21, 166);
+}
+
+h3 {
+  color:white;
+  text-shadow: 2px 2px 2px rgb(186, 113, 184);
+}
+
 .palette {
   padding: 5% 5%;
   text-align: end;
- 
   /* display: inline; */
   /* position:absolute; */
 }

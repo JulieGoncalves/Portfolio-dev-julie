@@ -1,14 +1,15 @@
 /* COULEURS */
 
-* {
+/* * {
   margin:0;
   padding:0;
-  }
+  } */
 
 /* palette de couleurs 1  */
 html {
   color: #fff;
-  color: rgb(255, 198, 245);
+  color: #ffc6f5;
+  color: #ba71b8;
   color: #2d16c1;
 }
 
@@ -19,5 +20,23 @@ html {
   color: #fff12e;
 }
 
-/* FONTS */
+/* TITRES */
 
+h2 {
+  font-family: "Bodoni Moda", serif;
+  font-style: italic;
+  text-align: end;
+  bottom: 0;
+  font-size: 1.3em;
+}
+
+h3 {
+  width: 40%;
+  z-index: 10;
+  position: absolute;
+  top:40%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-size: 1.2em;
+}

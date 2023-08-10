@@ -99,6 +99,12 @@ body {
   color: #ffffff;
 }
 
+/* PROJETS */
+
+.linear-gradient {
+    background: linear-gradient(#ffc6f5, #2d16c1);
+}
+
 /* ----PALETTE-VERTE----*/
 
 /* barre-laterale */

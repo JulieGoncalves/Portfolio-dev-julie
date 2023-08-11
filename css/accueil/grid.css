@@ -110,7 +110,7 @@ padding-right: 10%;
 /* -- A PROPOS -- */
 
 .grid-2 {
-  margin-top: 20%;
+  /* margin-top: 20%; */
   height: 100%;
   width: 100%;
   display: grid;

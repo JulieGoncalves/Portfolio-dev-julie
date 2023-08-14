@@ -31,7 +31,7 @@
     />
   </head>
 
-  <body>
+  <body class="changeCouleur">
     <!-- ACCUEIL -->
 
     <!-- CURSEUR -->
@@ -46,9 +46,9 @@
       <div class="grid-row-1-column3-changeCouleur3">
         <!-- PALETTE -->
         <div class="palette">
-          <button id="palette1"></button>
-          <button id="palette2"></button>
-          <button id="palette3"></button>
+          <button id="palette1" class="changeCouleur"></button>
+          <button id="palette2" class="changeCouleur"></button>
+          <but#2d16c1ton id="palette3"></but#2d16c1ton>
         </div>
       </div>
       <div class="grid-row-2-column-1 changeCouleur">
@@ -122,8 +122,8 @@
       </div>
 
       <div class="grid-row-3-column-1 changeCouleur">
-        <div class="vertical-ligne"></div>
-        <div class="vertical-txt">julie gonçalves</div>
+        <div class="vertical-ligne changeCouleur"></div>
+        <div class="vertical-txt changeCouleur">julie gonçalves</div>
       </div>
       <!-- fusion cellules -->
       <div class="grid-row-2-column-2">
@@ -966,10 +966,8 @@
           </svg>
         </div>
         <div class="container-titre-boule">
-        <h2 class="changeCouleur">
-         Posez-moi votre question
-        </h2>
-      </div>
+          <h2 class="changeCouleur">Posez-moi votre question</h2>
+        </div>
       </div>
       <div class="grid-row-4-column-3">
         <div class="titre-projets">
@@ -1010,44 +1008,37 @@
 
       <div class="grid-row-8-column-2">
         <form action="" class="formulaire">
-          <div class="">
-            <div class="form-nom">
-              <input
-                type="text"
-                size="50"
-                class=""
-                placeholder="Votre nom"
-                required
-              />
-            </div>
-            <div class="form-email">
-              <input
-                type="email"
-                class="form-control"
-                placeholder="Saisissez votre email"
-                requried
-              />
-            </div>
-            <div class="form-message">
-              <textarea
-                name="comment"
-                id="comment"
-                rows="6"
-                class="form-control"
-                placeholder="Message"
-              ></textarea>
-            </div>
-            <div class="">
-              <input
-                type="submit"
-                value="Envoyer le message"
-                class="btn btn-outline-primary rounded"
-              />
-            </div>
+          <h4 class="titre-contact">con</h4>
+          <h4 class="titre-contact-it">tact</h4>
+          <div class="form-nom">
+            <input
+              type="text"
+              size="40"
+              class=""
+              placeholder="Votre nom"
+              required
+            />
+          </div>
+          <div class="form-email">
+            <input
+              type="email"
+              class="form-control"
+              placeholder="Saisissez votre email"
+              requried
+            />
+          </div>
+          <div class="form-message">
+            <textarea
+              rows="6"
+              class="form-control"
+              placeholder="Message"
+            ></textarea>
+          </div>
+          <div class="form-envoi">
+            <input type="submit" value="Envoyer le message" />
           </div>
         </form>
       </div>
-      <div class="grid-row-8-column-3">3</div>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

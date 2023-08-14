@@ -1,21 +1,21 @@
 var elementsDeCouleur = document.querySelectorAll(".changeCouleur");
-var btnVert = document.getElementById("palette1");
+var btnBleu = document.getElementById("palette1");
 var btnNoir = document.getElementById("palette2");
 var btnRose = document.getElementById("palette3");
 
 var paletteActive = "rose";
 
-btnVert.addEventListener("click", function () {
-  if (paletteActive == "vert") {
+btnBleu.addEventListener("click", function () {
+  if (paletteActive == "bleu") {
     return;
   }
 
   elementsDeCouleur.forEach(function (element) {
     element.classList.remove("rose");
     element.classList.remove("noir");
-    element.classList.add("vert");
+    element.classList.add("bleu");
   });
-  paletteActive = "vert";
+  paletteActive = "bleu";
 });
 
 btnRose.addEventListener("click", function () {
@@ -24,7 +24,7 @@ btnRose.addEventListener("click", function () {
   }
   elementsDeCouleur.forEach(function(element) {
   element.classList.remove("noir");
-  element.classList.remove("vert");
+  element.classList.remove("bleu");
   element.classList.add("rose");
 });
 paletteActive = "rose";
@@ -35,7 +35,7 @@ if (paletteActive == "noir") {
 return;
 }
 elementsDeCouleur.forEach(function(element){
-  element.classList.remove("vert");
+  element.classList.remove("bleu");
   element.classList.remove("rose");
   element.classList.add("noir");
 });

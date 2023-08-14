@@ -139,10 +139,10 @@ padding-right: 10%;
   grid-area: 8 / 1 / 9 / 2; 
 }
 
-/* -- formulaire de contact -- */
+-- formulaire de contact --
 .grid-row-8-column-2 {
   grid-area: 8 / 2 / 9 / 3; 
-}
+} 
 
 .grid-row-8-column-3 {
   grid-area: 8 / 3 / 9 / 4; 

@@ -1,15 +1,5 @@
 /* ----STYLE-BOUTONS-PALETTE----*/
 
-h1,
-h2 {
-  color: rgb(21, 21, 166);
-}
-
-h3 {
-  color: white;
-  text-shadow: 2px 2px 2px rgb(186, 113, 184);
-}
-
 .palette {
   padding: 5% 5%;
   text-align: end;
@@ -37,6 +27,22 @@ h3 {
 }
 
 /* ----PALETTE-ROSE----*/
+
+/* blob */
+
+#container-blob .bio {
+  color: rgb(21, 21, 166);
+}
+
+h1,
+h2 {
+  color: rgb(21, 21, 166);
+}
+
+h3 {
+  color: white;
+  text-shadow: 2px 2px 2px rgb(186, 113, 184);
+}
 
 body {
   background: #ffc6f5;
@@ -104,6 +110,18 @@ body {
   background: linear-gradient(#ffc6f5, #2d16c1);
 }
 
+/* CONTACT */
+
+h4.titre-contact-it,
+.titre-contact {
+  color: rgb(255, 255, 255);
+}
+
+input.btn-envoyer {
+  background-color: #ffc6f5;
+  color: #2d16c1;
+}
+
 /* ----PALETTE-BLEUE----*/
 
 #palette1.bleu {
@@ -113,32 +131,47 @@ body {
   border: 1px solid #ffffff;
 }
 
+/* blob */
+
+#rel1 .para.bleu {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Bodoni Moda", serif;
+}
+
 .h1-l1.bleu {
   font-size: 150px;
+  color: #ffc6f5;
 }
 
 .h1-l2.bleu {
   font-size: 90px;
+  color: #ffffff;
 }
 
 .h1-l3.bleu {
   font-size: 110px;
   font-style: italic;
+  color: #ffc6f5;
 }
 
-input[type=password], input[type=email], input[type=text] {
-	width: 100%;
-	margin-top: 25px;
-	padding: 20px 20px;
-	height: 1.2em;
-	background-color: inherit;
-	border: 1px solid white;
-	box-sizing: border-box;
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  margin-top: 25px;
+  padding: 20px 20px;
+  height: 1.2em;
+  background-color: inherit;
+  border: 1px solid white;
+  box-sizing: border-box;
 }
 
-input[type=password]:focus, input[type=email]:focus, input[type=text]:focus{
-	background-color: rgba(19, 143, 106, 0.3);
-	color: white;
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus {
+  background-color: rgba(19, 143, 106, 0.3);
+  color: white;
 }
 
 body.bleu {
@@ -215,8 +248,50 @@ body.bleu {
 
 /* PROJETS */
 
+.vertical-txt-p.bleu {
+  color: #ffc6f5;
+}
+
+h2.bleu {
+  color: #ffc6f5;
+}
+
+.h2-l1-p.bleu {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #ffc6f5;
+}
+
+.h2-l2-p.bleu {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #ffc6f5;
+}
+
 .linear-gradient.bleu {
-  background: linear-gradient(#2d16c1,#ffc6f5);
+  background: linear-gradient(#2d16c1, #ffc6f5);
+}
+
+/* A PROPOS */
+
+.h2-l1-ap.bleu {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px#2d16c1;
+}
+
+.h2-l2-ap.bleu {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #2d16c1;
+}
+
+/* CONTACT */
+
+.form-envoi.bleu {
+  margin: auto;
+}
+
+input.btn-envoyer.bleu {
+  background-color: #ffffff;
+  color: #b616c1;
+  box-shadow: 1px 1px 1px#ffc6f5;
 }
 
 /* ----PALETTE-NOIRE----*/
@@ -248,11 +323,11 @@ body.bleu {
 }
 
 body.noir {
-  background-color:  #ffc6f5;
+  background-color: #ffc6f5;
 }
 
 #rel1.changeCouleur.noir {
-  color:  #ffffff;
+  color: #ffffff;
   text-align: center;
   position: absolute;
   top: 40%;

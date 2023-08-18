@@ -43,7 +43,7 @@
       <div class="grid-row-1-column-1 rayures changeCouleur"></div>
       <div class="grid-row-1-column-2 changeCouleur"></div>
       <!---->
-      <div class="grid-row-1-column3-changeCouleur">
+      <div class="grid-row-1-column-3 changeCouleur">
         <!-- PALETTE -->
         <div class="palette">
           <button id="palette1" class="changeCouleur"></button>
@@ -107,16 +107,19 @@
           <div class="bottom-side changeCouleur"></div>
 
           <div class="container-projet">
-            <p class="blur">PROJETS</p>
+            <a class="blur" href="#projet">PROJETS</a>
+            <a class="focus" href="#projet">PROJETS</a>
+            <!-- <p class="blur">PROJETS</p>
             <p class="focus">PROJETS</p>
+            </a> -->
           </div>
           <div class="container-a-propos">
-            <p class="blur ap">À PROPOS</p>
-            <p class="focus ap">À PROPOS</p>
+            <a class="blur ap" href="#a-propos">À PROPOS</a>
+            <a class="focus ap" href="#a-propos">À PROPOS</a>
           </div>
           <div class="container-contact">
-            <p class="blur">CONTACT</p>
-            <p class="focus">CONTACT</p>
+            <a href="#contact" class="blur">CONTACT</a>
+            <a href="#contact" class="focus">CONTACT</a>
           </div>
         </div>
       </div>
@@ -180,12 +183,14 @@
       </div>
       <div class="grid-row-3-column-3"></div>
       <div class="grid-row-4-column-1 text-bottom">
-        <div class="vertical-txt-p changeCouleur">Projets incroyables en cours</div>
+        <div class="vertical-txt-p changeCouleur">
+          Projets incroyables en cours
+        </div>
       </div>
 
       <!-- PROJETS -->
 
-      <div class="grid-row-4-column-2">
+      <div id="projet" class="grid-row-4-column-2">
         <div class="container-video">
           <h3 class="changeCouleur" id="resultat-citation"></h3>
           <!-- video  -->
@@ -965,8 +970,8 @@
           </svg>
         </div>
         <div class="container-titre-boule">
-          <h2 class="changeCouleur">Posez-moi votre question
-            <br>et cliquez sur la boule
+          <h2 class="changeCouleur">
+            Posez-moi votre question <br />et cliquez sur la boule
           </h2>
         </div>
       </div>
@@ -982,7 +987,7 @@
 
     <!-- GRID-2 -->
 
-    <div class="linear-gradient changeCouleur">
+    <div id="a-propos" class="linear-gradient changeCouleur">
       <div class="container-grid-et-carte">
         <div class="grid-2">
           <div class="titre-a-propos">
@@ -990,14 +995,19 @@
             <h1 class="h2-l2-ap changeCouleur">pos</h1>
           </div>
         </div>
-        <img class="carte" src="css/a-propos/carte.svg" alt="carte" />
-        <p class="text">
-          <br class="titre-carte" />Developpeuse front-end
-          <br class="titre-carte" />Créative et autodidacte
-          <br class="titre-carte" />Basée à Paris <br />J'aime particulièrement
-          réaliser des interfaces esthétiques, ergonomiques et responcive avec
-          une identité visuelle en accord avec votre activité.
-        </p>
+        <div class="container-carte-texte">
+          <img class="carte" src="css/a-propos/carte.svg" alt="carte" />
+          <div class="text-carte">
+            <h4 class="titre-carte">Developpeuse front-end</h4>
+            <h4 class="titre-carte">Créative et autodidacte</h4>
+            <h4 class="titre-carte">Basée à Paris</h4>
+            <p>
+              J'aime particulierement réaliser des interfaces esthétiques,
+              ergonomiques et responcive avec une identité visuelle en accord
+              avec votre activité.
+            </p>
+          </div>
+        </div>
         <img
           class="carte-portrait"
           src="css/a-propos/carte-portrait.svg"
@@ -1007,12 +1017,13 @@
 
       <!-- FORMULAIRE -->
 
-      <div class="grid-row-8-column-2">
+      <div id="contact" class="grid-row-8-column-2">
         <form class="formulaire">
           <h4 class="titre-contact changeCouleur">con</h4>
           <h4 class="titre-contact-it changeCouleur">tact</h4>
           <div class="form-nom">
-            <input class="saisie-nom"
+            <input
+              class="saisie-nom"
               type="text"
               size="40"
               placeholder="Votre nom"
@@ -1035,7 +1046,11 @@
             ></textarea>
           </div>
           <div class="form-envoi changeCouleur">
-            <input class="btn-envoyer changeCouleur" type="submit" value="Envoyer" />
+            <input
+              class="btn-envoyer changeCouleur"
+              type="submit"
+              value="Envoyer"
+            />
           </div>
         </form>
       </div>

@@ -93,7 +93,7 @@ body {
 }
 
 .bottom-side {
-  background: #ffc6f5;
+  background: rgb(255, 198, 245);
 }
 
 .blur {
@@ -124,7 +124,10 @@ input.btn-envoyer {
 
 /* ----PALETTE-BLEUE----*/
 
-#palette1.bleu {
+/* ACCUEIL*/
+
+#palette1.bleu,
+#palette1.blan {
   height: 19px;
   width: 19px;
   background-color: #2d16c1;
@@ -153,29 +156,6 @@ input.btn-envoyer {
   font-size: 110px;
   font-style: italic;
   color: #ffc6f5;
-}
-
-input[type="password"],
-input[type="email"],
-input[type="text"] {
-  width: 100%;
-  margin-top: 25px;
-  padding: 20px 20px;
-  height: 1.2em;
-  background-color: inherit;
-  border: 1px solid white;
-  box-sizing: border-box;
-}
-
-input[type="password"]:focus,
-input[type="email"]:focus,
-input[type="text"]:focus {
-  background-color: rgba(19, 143, 106, 0.3);
-  color: white;
-}
-
-body.bleu {
-  background: #2d16c1;
 }
 
 /* barre-laterale */
@@ -294,39 +274,68 @@ input.btn-envoyer.bleu {
   box-shadow: 1px 1px 1px#ffc6f5;
 }
 
-/* ----PALETTE-NOIRE----*/
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  margin-top: 25px;
+  padding: 20px 20px;
+  height: 1.2em;
+  background-color: inherit;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus {
+  background-color: rgba(19, 143, 106, 0.3);
+  color: white;
+}
+
+/* ----PALETTE-BLANCHE----*/
+
+/* ACCUEIL*/
 
 /* barre-laterale */
 
-.vertical-ligne.noir {
+body.blan {
+  background: #ffffff;
+}
+
+.grid-row-1-column-1.blan,
+.grid-row-1-column-2.blan,
+.grid-row-1-column-3.blan,
+.grid-row-2-column-1.blan,
+.grid-row-3-column-1.blan {
+  background-color: #2d16c1;
+}
+
+.vertical-ligne.blan {
   border-left: #ffffff 3px solid;
 }
 
-.vertical-txt.noir {
+.vertical-txt.blan {
   color: #ffffff;
 }
 
-.icone.noir {
+.icone.blan {
   fill: #ffffff;
 }
 
-.circleInt.noir {
+.circleInt.blan {
   background-color: #ffffff;
 }
 
-.circle.noir {
+.circle.blan {
   border: #2d16c1 2px solid;
 }
 
-.noir {
+.blan {
   stop-color: #2d16c1;
 }
 
-body.noir {
-  background-color: #ffc6f5;
-}
-
-#rel1.changeCouleur.noir {
+#rel1.changeCouleur.blan {
   color: #ffffff;
   text-align: center;
   position: absolute;
@@ -336,20 +345,4 @@ body.noir {
   font-size: 30px;
   border: 3px solid rgb(202, 249, 32);
   padding: 0 15%;
-}
-
-.grid-row-1-column-2.noir {
-  background-color: #2d16c1;
-}
-
-.grid-row-1-column-3.noir {
-  background-color: #2d16c1;
-}
-
-.grid-row-2-column-1.noir {
-  background-color: #2d16c1;
-}
-
-.grid-row-3-column-1.noir {
-  background-color: #2d16c1;
 }

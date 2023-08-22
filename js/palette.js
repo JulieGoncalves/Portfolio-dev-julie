@@ -48,12 +48,6 @@ btnBlanc.addEventListener("click", function () {
   paletteActive = "blanc";
 });
 
-// CHANGEMENT DE SVG AU CLIC
-// Écouteurs d'événement pour chaque bouton
-var btnBleu = document.getElementById("palette1");
-var btnBlanc = document.getElementById("palette2");
-var btnRose = document.getElementById("palette3");
-
 btnBleu.addEventListener("click", function () {
   // Lorsque je clique sur la palette bleue, je souhaite
   // afficher la boule bleue et cacher les autres boules
@@ -77,3 +71,13 @@ btnRose.addEventListener("click", function () {
   bouleCristalBlanche.classList.add("cachecristal");
   bouleCristalRose.classList.remove("cachecristal");
 });
+
+
+function initBouleConfig() {
+  // Lorsque je clique sur la palette rose, je souhaite
+  // afficher la boule rose et cacher les autres boules
+  bouleCristalBleue.classList.add("cachecristal");
+  bouleCristalBlanche.classList.add("cachecristal");
+  bouleCristalRose.classList.remove("cachecristal");
+}
+initBouleConfig();

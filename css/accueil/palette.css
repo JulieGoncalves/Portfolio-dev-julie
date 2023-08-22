@@ -259,7 +259,7 @@ h2.bleu {
 
 .h2-l2-ap.bleu {
   color: #ffffff;
-  text-shadow: 2px 2px 3px #2d16c1;
+  text-shadow: 2px 2px 3px rgb(45, 22, 193);
 }
 
 /* CONTACT */
@@ -292,22 +292,6 @@ input[type="text"]:focus {
   background-color: rgba(19, 143, 106, 0.3);
   color: white;
 }
-
-.boule-cristal.bleu {
-  display: none;
-}
-
-.boule-cristal.blanc {
-  display: none;
-}
-
-/* #boule-bleue {
-  display: none;
-}
-
-#boule-blanche {
-  display: none;
-} */
 
 /* ----PALETTE-BLANCHE----*/
 

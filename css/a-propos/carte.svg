@@ -1,0 +1,35 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 1250" width="250" height="446">
+	<title>carte</title>
+	<style>
+		tspan { white-space:pre } 
+		.s0 { fill: #ffffff } 
+		.s1 { fill: none;stroke: #2d16c1;stroke-miterlimit:100;stroke-width: 10 } 
+		.s2 { fill: #2d16c1 } 
+		.s3 { fill: none;stroke: #2d16c1;stroke-miterlimit:100;stroke-width: 6 } 
+		.s4 { fill: none;stroke: #2d16c1;stroke-linecap: round;stroke-miterlimit:50;stroke-width: 4;stroke-dasharray: 0,8 } 
+		.s5 { fill: none;stroke: #2d16c1;stroke-linecap: round;stroke-miterlimit:50;stroke-width: 2 } 
+		.t6 { font-size: 45px;fill: #2d16c1;font-weight: 700;font-family: "PlayfairDisplay-Bold", "Playfair Display" } 
+	</style>
+	<path id="Forme 17" class="s0" d="m0 30c0-16.6 13.4-30 30-30h640c16.6 0 30 13.4 30 30v1190c0 16.6-13.4 30-30 30h-640c-16.6 0-30-13.4-30-30z"/>
+	<path id="Forme 1" class="s1" d="m0 30c0-16.6 13.4-30 30-30h640c16.6 0 30 13.4 30 30v1190c0 16.6-13.4 30-30 30h-640c-16.6 0-30-13.4-30-30z"/>
+	<path id="Forme 5" class="s2" d="m38.8 140.8l-3.9-3.2 62.3-74.2 3.9 3.3z"/>
+	<path id="Forme 2" class="s3" d="m54 80.6h592v1088.2h-592z"/>
+	<path id="Forme 9 copy" class="s2" d="m35.8 134.5h5v988.6h-5z"/>
+	<path id="Forme 4" class="s3" d=""/>
+	<path id="Forme 6" class="s2" d="m606.2 66.6l3.8-3.2 54.5 63.6-3.8 3.3z"/>
+	<path id="Forme 7" class="s2" d="m610.9 1185.6l-3.6-3.5 54.1-54.3 3.6 3.5z"/>
+	<path id="Forme 8" class="s2" d="m36.1 1123.7l3.9-3.1 50 61.2-3.8 3.1z"/>
+	<path id="Forme 9" class="s2" d="m659.8 127h5.1l-0.1 1005.1h-5.1z"/>
+	<path id="Forme 10" class="s2" d="m87.2 1186v-4.8h523.8v4.8z"/>
+	<path id="Forme 11" class="s2" d="m99 67.3v-4.7l511.4 0.1v4.7z"/>
+	<path id="Forme 12" class="s2" d="m53.9 1093.2v-5h591.2v5z"/>
+	<path id="Forme 13" class="s4" d="m22 41c0-5.5 4.5-10 10-10h635c5.5 0 10 4.5 10 10v1167c0 5.5-4.5 10-10 10h-635c-5.5 0-10-4.5-10-10z"/>
+	<path id="Forme 14" class="s0" d="m350 1226c-4.4 0-8-3.6-8-8 0-4.4 3.6-8 8-8 4.4 0 8 3.6 8 8 0 4.4-3.6 8-8 8z"/>
+	<path id="Forme 15" class="s5" d="m349 1225c-4.4 0-8-3.6-8-8 0-4.4 3.6-8 8-8 4.4 0 8 3.6 8 8 0 4.4-3.6 8-8 8z"/>
+	<text id="Developpeuse" style="transform: matrix(1,0,0,1,73,1107)" >
+		<tspan x="132.8" y="35.2" class="t6">D</tspan><tspan  y="35.2" class="t6">e</tspan><tspan  y="35.2" class="t6">v</tspan><tspan  y="35.2" class="t6">e</tspan><tspan  y="35.2" class="t6">l</tspan><tspan  y="35.2" class="t6">o</tspan><tspan  y="35.2" class="t6">p</tspan><tspan  y="35.2" class="t6">p</tspan><tspan  y="35.2" class="t6">e</tspan><tspan  y="35.2" class="t6">u</tspan><tspan  y="35.2" class="t6">s</tspan><tspan  y="35.2" class="t6">e
+</tspan>
+	</text>
+	<text id="" style="transform: matrix(1,0,0,1,221,1089)" >
+	</text>
+</svg>

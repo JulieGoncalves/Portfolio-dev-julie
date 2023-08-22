@@ -1,0 +1,21 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" width="350" height="350">
+	<title>Nouveau projet</title>
+	<style>
+		.s0 { fill: #2d16c1 } 
+		.s1 { fill: none;stroke: #2d16c1;stroke-miterlimit:100;stroke-width: 3 } 
+	</style>
+	<path id="Forme 12" class="s0" d="m60.2 160.1l15-11.6 1.3-23.7 10.9 16.3 19.7 4.7-12.8 11.9-1.9 21.9-10.7-18.5"/>
+	<path id="Forme 12 copy 2" class="s0" d="m78.2 114.2l8.9-7 0.7-14.4 6.5 9.8 11.7 2.9-7.6 7.2-1.1 13.3-6.3-11.2"/>
+	<path id="Forme 12 copy" class="s0" d="m17.1 296.1l10.1-12.8-2.4-19.5 10.9 10.7 16.1-0.6-8.4 12.5 1.6 18.2-11-12.6"/>
+	<path id="Forme 14" class="s0" d="m278 53.6l18.4-4.1 7.7-12 0.1 15.6 7.8 8.8-10.6 2.6-15.5 13.5 2-15"/>
+	<path id="Forme 15" fill-rule="evenodd" class="s1" d="m237.3 169l-3.5 10.5-8.8 4.4 7 4.4 3.6 9.7 3.5-8.8 7.9-6.1-7.9-4.4z"/>
+	<path id="Forme 15 copy" fill-rule="evenodd" class="s1" d="m325.1 71l-2.9 8-7.2 3.3 5.8 3.4 2.8 7.3 2.9-6.7 6.5-4.6-6.5-3.4z"/>
+	<path id="Forme 17" fill-rule="evenodd" class="s1" d="m225 215l-3 13-9 3 10 3 2 14 6-14 11-4-12-4z"/>
+	<path id="Forme 1" class="s0" d="m37.7 276.4l-4.6-1.9 51.6-125.1 4.6 1.9z"/>
+	<path id="Forme 2" class="s0" d="m87.6 154.2l-1.2-4.9 48.8-12.2 1.2 4.9z"/>
+	<path id="Forme 3" class="s0" d="m134.1 141.4l3.4-3.7 89.5 82.2-3.4 3.7z"/>
+	<path id="Forme 4" class="s0" d="m226.9 223.4l-3.2-3.9 94-77.5 3.1 3.8z"/>
+	<path id="Forme 15 copy 2" fill-rule="evenodd" class="s1" d="m61.2 254l-3.2 9.5-7.9 3.9 6.3 3.9 3.2 8.7 3.2-7.9 7.1-5.5-7.1-3.9z"/>
+	<path id="Forme 5" class="s0" d="m321.5 143.6l-5 0.3-3-59.3 5-0.2z"/>
+	<path id="Forme 6" class="s0" d="m318.4 82.5l-3.7 3.5-22.3-23.7 3.6-3.4z"/>
+</svg>

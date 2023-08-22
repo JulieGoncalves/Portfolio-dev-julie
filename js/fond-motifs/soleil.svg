@@ -1,0 +1,58 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 350" width="350" height="350">
+	<title>soleil-svg</title>
+	<style>
+		.s0 { fill: none;stroke: #2d16c1;stroke-miterlimit:100;stroke-width: 5.1 } 
+		.s1 { fill: none;stroke: #2d16c1;stroke-miterlimit:100;stroke-width: 4 } 
+		.s2 { fill: #2d16c1 } 
+	</style>
+	<path id="Calque 1 copy" class="s0" d="m174.5 264c-49.5 0-89.5-40-89.5-89.5 0-49.5 40-89.5 89.5-89.5 49.5 0 89.5 40 89.5 89.5 0 49.5-40 89.5-89.5 89.5z"/>
+	<path id="Forme 1" class="s1" d="m174.5 282c-58.3 0-105.5-47.6-105.5-106.5 0-58.9 47.2-106.5 105.5-106.5 58.3 0 105.5 47.6 105.5 106.5 0 58.9-47.2 106.5-105.5 106.5z"/>
+	<path id="Forme 2" class="s2" d="m153.1 71.1l-4.9 1-14.1-66.6 4.9-1z"/>
+	<path id="Forme 3" class="s2" d="m166.3 71.1l-5 0.8-8-52.2 4.9-0.8z"/>
+	<path id="Forme 4" class="s2" d="m177.5 70.7h-5v-39.9h5z"/>
+	<path id="Forme 5" class="s2" d="m188.3 70.6l-4.9-0.3 1.4-26.1 5 0.3z"/>
+	<path id="Forme 6" class="s2" d="m209.3 74.5l-4.8-1.4 20.7-67.4 4.8 1.5z"/>
+	<path id="Forme 7" class="s2" d="m220.1 78l-4.6-1.8 19.6-48.7 4.6 1.9z"/>
+	<path id="Forme 8" class="s2" d="m230.8 84.3l-4.4-2.5 19.9-34.9 4.4 2.5z"/>
+	<path id="Forme 9" class="s2" d="m238.9 90.4l-3.9-3.2 16.5-20.4 3.9 3.2z"/>
+	<path id="Forme 10" class="s2" d="m253.6 103.5l-3.4-3.6 50.6-46.7 3.4 3.7z"/>
+	<path id="Forme 11" class="s2" d="m262.1 112l-3.2-3.9 40.9-33.8 3.2 3.9z"/>
+	<path id="Forme 12" class="s2" d="m266.2 123.1l-2.6-4.2 36.6-22.5 2.6 4.2z"/>
+	<path id="Forme 13" class="s2" d="m274.3 132.7l-2.6-4.2 21.9-13.4 2.6 4.3z"/>
+	<path id="Forme 14" class="s2" d="m277.6 153.2l-1.2-4.9 68.9-16.4 1.2 4.8z"/>
+	<path id="Forme 15" class="s2" d="m282.6 163.3l-0.8-4.9 51.7-9.1 0.9 4.9z"/>
+	<path id="Forme 16" class="s2" d="m281 173.7l-0.1-5 42-0.4v5z"/>
+	<path id="Forme 17" class="s2" d="m280.8 183l1.1-4.8 26.6 6.1-1.1 4.8z"/>
+	<path id="Forme 18" class="s2" d="m277.9 208.6l1.3-4.8 66 18.9-1.4 4.8z"/>
+	<path id="Forme 19" class="s2" d="m274.7 218.5l1.9-4.6 49.5 19.7-1.8 4.7z"/>
+	<path id="Forme 20" class="s2" d="m269.2 229.8l2.5-4.3 32.9 19.1-2.5 4.4z"/>
+	<path id="Forme 21" class="s2" d="m263.1 239.3l2.8-4.2 21.7 14.3-2.8 4.2z"/>
+	<path id="Forme 34" class="s2" d="m96.6 247.8l3.4 3.7-51.7 47.8-3.4-3.7z"/>
+	<path id="Forme 35" class="s2" d="m89 238.6l3.1 3.9-41.7 33.1-3.1-3.9z"/>
+	<path id="Forme 36" class="s2" d="m83.6 228.2l2.7 4.2-34.3 22.2-2.7-4.2z"/>
+	<path id="Forme 37" class="s2" d="m78.9 219l2 4.5-24.3 11.2-2.1-4.6z"/>
+	<path id="Forme 38" class="s2" d="m71.3 198.8l1.1 4.9-68.7 15.5-1.1-4.9z"/>
+	<path id="Forme 39" class="s2" d="m68.9 187l0.7 4.9-54.1 8.1-0.7-5z"/>
+	<path id="Forme 40" class="s2" d="m68.8 174.9l0.2 5-40.9 1.5-0.1-5z"/>
+	<path id="Forme 41" class="s2" d="m70.9 165.4l-0.6 5-27.7-3.3 0.6-4.9z"/>
+	<path id="Forme 42" class="s2" d="m73.4 142.7l-1.5 4.8-66.7-20.2 1.5-4.8z"/>
+	<path id="Forme 43" class="s2" d="m79 131.7l-1.8 4.7-50.4-19 1.8-4.6z"/>
+	<path id="Forme 44" class="s2" d="m83 120l-2.3 4.4-33.1-17.1 2.3-4.5z"/>
+	<path id="Forme 45" class="s2" d="m90.8 111.8l-2.6 4.3-22.2-13.8 2.6-4.3z"/>
+	<path id="Forme 46" class="s2" d="m103 97.4l-3.7 3.4-45.4-51.4 3.7-3.3z"/>
+	<path id="Forme 47" class="s2" d="m115.1 90l-3.9 3.2-34.9-42.2 3.9-3.2z"/>
+	<path id="Forme 48" class="s2" d="m121.4 82.7l-4.4 2.5-18.5-32.9 4.4-2.5z"/>
+	<path id="Forme 49" class="s2" d="m132.8 78.5l-4.5 2.2-11.8-23.9 4.4-2.2z"/>
+	<path id="Forme 22" class="s2" d="m247.7 255.8l3.6-3.5 47.1 48.8-3.6 3.4z"/>
+	<path id="Forme 23" class="s2" d="m239.5 261.4l3.9-3 31.2 40.8-4 3z"/>
+	<path id="Forme 24" class="s2" d="m228.9 269.3l4.2-2.7 20.4 31.5-4.2 2.7z"/>
+	<path id="Forme 25" class="s2" d="m220.4 274.1l4.5-2.2 11.7 24.3-4.5 2.1z"/>
+	<path id="Forme 26" class="s2" d="m199.6 280.3l4.9-1.1 15.2 70.3-4.9 1z"/>
+	<path id="Forme 27" class="s2" d="m187.1 282.6l5-0.8 8 48.5-4.9 0.8z"/>
+	<path id="Forme 28" class="s2" d="m172.5 282.9h5v37.8h-5z"/>
+	<path id="Forme 29" class="s2" d="m165.2 281.1l5 0.4-2.3 29.6-5-0.4z"/>
+	<path id="Forme 30" class="s2" d="m143.5 278.1l4.8 1.5-21.1 65.1-4.7-1.5z"/>
+	<path id="Forme 31" class="s2" d="m133.3 274.4l4.7 1.9-20.5 49.5-4.6-1.9z"/>
+	<path id="Forme 32" class="s2" d="m121.3 267.7l4.3 2.4-20 36.6-4.4-2.4z"/>
+	<path id="Forme 33" class="s2" d="m112.4 261.7l4.1 2.8-14.8 21.5-4.1-2.9z"/>
+</svg>

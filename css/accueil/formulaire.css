@@ -1,0 +1,52 @@
+.formulaire {
+  text-align: center;
+  margin: auto;
+  padding: 10%;
+  width: 50%;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+h4.titre-contact-it,
+.titre-contact {
+  font-size: 3.5em;
+  font-family: "Playfair Display";
+  text-transform: uppercase;
+  display: inline-block;
+  margin: 0;
+}
+
+h4.titre-contact-it {
+  font-style: italic;
+}
+
+.form-nom,
+.form-email,
+.form-message,
+.form-envoi,
+.form-control {
+  margin: 3% 0;
+}
+
+textarea.form-control,
+input[type="email"],
+input[type="text"] {
+  border: 1px solid white;
+  width: 100%;
+  background-color: inherit;
+  box-sizing: border-box;
+}
+
+textarea.form-control {
+  height: 5%;
+}
+
+input.btn-envoyer {
+  width: 30%;
+  height: 3em;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Playfair Display";
+  letter-spacing: 0.3em;
+  justify-content: center;
+}

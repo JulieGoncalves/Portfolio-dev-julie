@@ -6,16 +6,13 @@
   width: 100%;
   z-index: 3;
   overflow: hidden;
-  /*border: 2px solid rgb(20, 243, 236);*/
 }
 
 .bottom-side {
   position: absolute;
   height: 100%;
   width: 100%;
-  /*overflow: hidden;*/
   z-index: 3;
-  /*border: 1px solid red;*/
 }
 
 .hover {

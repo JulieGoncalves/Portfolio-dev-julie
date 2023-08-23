@@ -1,4 +1,5 @@
-/* ----STYLE-BOUTONS-PALETTE----*/
+/*----------------STYLE-BOUTONS-PALETTE-*/
+/*--------------------------------------*/
 
 .palette {
   padding: 5% 5%;
@@ -26,12 +27,26 @@
   background-color: rgb(252, 89, 206);
 }
 
-/* ----PALETTE-ROSE----*/
+/*-----------------------PALETTE-ROSE---*/
+/*--------------------------------------*/
 
-/* blob */
+body {
+  background: #ffc6f5;
+}
 
-#container-blob .bio {
-  color: rgb(21, 21, 166);
+/*---ACCUEIL----------------------------*/
+/*---blob-------------------------------*/
+
+p.para {
+  color: #2d16c1;
+}
+
+.couleur1Blob {
+  stop-color: rgb(255, 255, 255);
+}
+
+.rose {
+  stop-color: #f05cd5;
 }
 
 h1,
@@ -44,11 +59,7 @@ h3 {
   text-shadow: 2px 2px 2px rgb(186, 113, 184);
 }
 
-body {
-  background: #ffc6f5;
-}
-
-/* barre-laterale */
+/*---bare-laterale---------------------*/
 
 .vertical-ligne {
   border-left: #2d16c1 3px solid;
@@ -58,13 +69,13 @@ body {
   color: #2d16c1;
 }
 
-/* logos */
+/*---icones----------------------------*/
 
 .icone {
   fill: #2d16c1;
 }
 
-/* curseur */
+/*---curseur---------------------------*/
 
 .circleInt {
   background-color: rgb(45, 22, 193);
@@ -76,17 +87,7 @@ body {
   z-index: 30;
 }
 
-/* blob */
-
-.couleur1Blob {
-  stop-color: rgb(255, 255, 255);
-}
-
-.rose {
-  stop-color: #f05cd5;
-}
-
-/* menu */
+/*---menu-------------------------------*/
 
 .top-side {
   background: #ffc6f5;
@@ -104,13 +105,13 @@ body {
   color: #ffffff;
 }
 
-/* PROJETS */
+/*---PROJET-----------------------------*/
 
 .linear-gradient {
   background: linear-gradient(#ffc6f5, #2d16c1);
 }
 
-/* CONTACT */
+/*---CONTACT----------------------------*/
 
 h4.titre-contact-it,
 .titre-contact {
@@ -122,9 +123,14 @@ input.btn-envoyer {
   color: #2d16c1;
 }
 
-/* ----PALETTE-BLEUE----*/
+/*----------------------PALETTE-BLEUE---*/
+/*--------------------------------------*/
 
-/* ACCUEIL*/
+body.bleu {
+  background-color: #2d16c1;
+}
+
+/*---ACCUEIL----------------------------*/
 
 #palette1.bleu,
 #palette1.blan {
@@ -134,31 +140,32 @@ input.btn-envoyer {
   border: 1px solid #ffffff;
 }
 
-/* blob */
+/*---blob------------------------------*/
 
-#rel1 .para.bleu {
+p.para.bleu {
   color: #ffffff;
   text-align: left;
   font-family: "Bodoni Moda", serif;
 }
 
+.bleu {
+  stop-color: #2d16c1;
+}
+
 .h1-l1.bleu {
-  font-size: 150px;
   color: #ffc6f5;
 }
 
 .h1-l2.bleu {
-  font-size: 90px;
   color: #ffffff;
 }
 
 .h1-l3.bleu {
-  font-size: 110px;
   font-style: italic;
   color: #ffc6f5;
 }
 
-/* barre-laterale */
+/*---bare-laterale----------------------*/
 
 .vertical-ligne.bleu {
   border-left: #ffc6f5 3px solid;
@@ -184,7 +191,7 @@ input.btn-envoyer {
   background-position: 25px 25px;
 }
 
-/* logos */
+/*---logos------------------------------*/
 
 #github.bleu {
   fill: #ffc6f5 ;
@@ -200,14 +207,6 @@ input.btn-envoyer {
 
 .circle.bleu {
   border: #ffc6f5 2px solid;
-}
-
-.bleu {
-  stop-color: #2d16c1;
-}
-
-body.bleu {
-  background-color: #2d16c1;
 }
 
 #rel1.changeCouleur.bleu {

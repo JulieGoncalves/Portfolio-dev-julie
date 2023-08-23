@@ -1,3 +1,9 @@
+.grid-row-4-column-2 {
+  padding: 15%;
+}
+
+/*---Superposition-SVG/video------------*/
+
 .container-video,
 .boule-cristal {
   text-align: center;
@@ -23,21 +29,7 @@
   transform: translate(-50%, -50%);
 }
 
-.grid-row-4-column-2 {
-  padding: 15%;
-}
-
-h3 {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 30;
-}
-
-.grid-row-4-column-2 > h2 {
-  margin: 5% -15% 0 0;
-}
+/*---Titre-"projet"---------------------*/
 
 .titre-projets {
   border: 2px solid red;
@@ -68,8 +60,17 @@ h3 {
   color: #2d16c1;
 }
 
+/*---Texte-lateral----------------------*/
+
+h3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 30;
+}
+
 .vertical-txt-p {
-  border: 2px red solid;
   font-family: "Bodoni Moda", serif;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
@@ -83,6 +84,3 @@ h3 {
   color: #2d16c1;
 }
 
-.container-titre-boule {
-  border: solid 2px red;
-}

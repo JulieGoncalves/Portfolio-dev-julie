@@ -421,7 +421,7 @@ h2.blanc {
 input.btn-envoyer.blanc {
   background-color: #ffffff;
   color: #b616c1;
-  box-shadow: 1px 1px 1px#ffc6f5;
+  box-shadow: 1px 1px 1pxrgb(255, 198, 245);
 }
 
 input[type="password"],
@@ -443,20 +443,60 @@ input[type="text"]:focus {
   color: white;
 }
 
-/*---Medias-queries---------------------*/
+/*-------------------------------------*/
+/*---MEDIAS-QUERIES--------------------*/
 
 @media only screen and (max-width: 420px) {
- 
   .grid {
     display: block; 
   }
 
-/*---ACCUEIL----------------------------*/
+/*---accueil----------------------------*/
 
-  #palette1,#palette2,#palette3,.grid-row-3-column-1,.container-menu {
+  #palette1,
+  #palette2,
+  #palette3,
+  .grid-row-3-column-1,
+  .grid-row-1-column-3,
+  .container-menu {
     display: none;
   }
+
+  .container-icones{
+  text-align: center;
+  }
+
+  .icone {
+    display: inline-block;
+  }
+
   p.para {
   text-align: center;
- }
+  }
+
+  .h1-l1 {
+    font-size: 100px;
+  }
+  
+  .h1-l2 {
+    font-size: 60px;
+  }
+
+  .h1-l3 {
+    font-size: 74px;
+    font-style: italic;
+  }
+  
+  .titres-blob {
+    
+    border: 2px solid red;
+    justify-content: center;
+  }
+
+  .grid-row-2-column-2 {
+  
+    border: 2px solid red;
+margin: 0;
+padding: 0;
+  }
 }

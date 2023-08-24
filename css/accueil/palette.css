@@ -289,12 +289,34 @@ input[type="text"]:focus {
 /*--------------------PALETTE-BLANCHE---*/
 /*--------------------------------------*/
 
-/* ACCUEIL*/
-
-/* barre-laterale */
-
 body.blanc {
   background: #ffffff;
+}
+
+/*---ACCUEIL----------------------------*/
+
+/*---blob------------------------------*/
+
+.blanc {
+  stop-color: #2d16c1;
+}
+
+p.para.blanc {
+  color: #2d16c1;
+}
+
+.h1-l1.blanc,.h1-l2.blanc,.h1-l3.blanc {
+  color:#2d16c1;
+}
+
+/*---bare-laterale----------------------*/
+
+.vertical-ligne.blanc {
+  border-left: #ffc6f5 3px solid;
+}
+
+.vertical-txt.blanc {
+  color: #ffc6f5;
 }
 
 .grid-row-1-column-1.blanc,
@@ -313,9 +335,13 @@ body.blanc {
   color: #ffffff;
 }
 
+/*---icones----------------------------*/
+
 .icone.blanc {
   fill: #ffffff;
 }
+
+/*---curseur---------------------------*/
 
 .circleInt.blanc {
   background-color: #ffffff;
@@ -325,10 +351,94 @@ body.blanc {
   border: #2d16c1 2px solid;
 }
 
-.blanc {
-  stop-color: #2d16c1;
+/*---menu-------------------------------*/
+
+.bottom-side.blanc {
+  background:  #2e2471;
 }
 
-.cachecristal {
-  display: none;
+.top-side.blanc {
+  background:  #ffffff;
+}
+
+.blur.blanc {
+  color: #c116a5;
+}
+
+.focus.blanc {
+  color: #c11646;
+}
+
+.hover.blanc {
+  color:red;
+}
+
+.container-a-propos.blanc {
+  color:red;
+}
+/*---PROJETS----------------------------*/
+
+.vertical-txt-p.blanc {
+  color: #ffc6f5;
+}
+
+h2.blanc {
+  color: #ffc6f5;
+}
+
+.h2-l1-p.blanc {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #ffc6f5;
+}
+
+.h2-l2-p.blanc {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px #ffc6f5;
+}
+
+.linear-gradient.blanc {
+  background: linear-gradient(#2d16c1, #ffc6f5);
+}
+
+/*---A-PROPOS---------------------------*/
+
+.h2-l1-ap.blanc {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px#2d16c1;
+}
+
+.h2-l2-ap.blanc {
+  color: #ffffff;
+  text-shadow: 2px 2px 3px rgb(45, 22, 193);
+}
+
+/*---CONTACT----------------------------*/
+
+.form-envoi.blanc {
+  margin: auto;
+}
+
+input.btn-envoyer.blanc {
+  background-color: #ffffff;
+  color: #b616c1;
+  box-shadow: 1px 1px 1px#ffc6f5;
+}
+
+input[type="password"],
+input[type="email"],
+input[type="text"] {
+  width: 100%;
+  margin-top: 25px;
+  padding: 20px 20px;
+  height: 1.2em;
+  background-color: inherit;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="text"]:focus {
+  background-color: rgba(19, 143, 106, 0.3);
+  color: white;
 }

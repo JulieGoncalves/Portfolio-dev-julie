@@ -29,3 +29,12 @@
   text-transform: uppercase;
   font-size: 12px;
 }
+
+/*---Medias-queries---------------------*/
+
+@media only screen and (max-width: 420px) {
+  .vertical-ligne,.vertical-txt {
+    /* display: none; */
+    visibility: hidden;
+  }
+}

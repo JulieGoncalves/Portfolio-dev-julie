@@ -442,3 +442,21 @@ input[type="text"]:focus {
   background-color: rgba(19, 143, 106, 0.3);
   color: white;
 }
+
+/*---Medias-queries---------------------*/
+
+@media only screen and (max-width: 420px) {
+ 
+  .grid {
+    display: block; 
+  }
+
+/*---ACCUEIL----------------------------*/
+
+  #palette1,#palette2,#palette3,.grid-row-3-column-1,.container-menu {
+    display: none;
+  }
+  p.para {
+  text-align: center;
+ }
+}

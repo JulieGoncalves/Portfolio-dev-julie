@@ -305,8 +305,10 @@ p.para.blanc {
   color: #2d16c1;
 }
 
-.h1-l1.blanc,.h1-l2.blanc,.h1-l3.blanc {
-  color:#2d16c1;
+.h1-l1.blanc,
+.h1-l2.blanc,
+.h1-l3.blanc {
+  color: #2d16c1;
 }
 
 /*---bare-laterale----------------------*/
@@ -354,11 +356,11 @@ p.para.blanc {
 /*---menu-------------------------------*/
 
 .bottom-side.blanc {
-  background:  #2e2471;
+  background: #2e2471;
 }
 
 .top-side.blanc {
-  background:  #ffffff;
+  background: #ffffff;
 }
 
 .blur.blanc {
@@ -370,11 +372,11 @@ p.para.blanc {
 }
 
 .hover.blanc {
-  color:red;
+  color: red;
 }
 
 .container-a-propos.blanc {
-  color:red;
+  color: red;
 }
 /*---PROJETS----------------------------*/
 
@@ -421,7 +423,7 @@ h2.blanc {
 input.btn-envoyer.blanc {
   background-color: #ffffff;
   color: #b616c1;
-  box-shadow: 1px 1px 1pxrgb(255, 198, 245);
+  box-shadow: 1px 1px 1pxrgb (255, 198, 245);
 }
 
 input[type="password"],
@@ -448,10 +450,10 @@ input[type="text"]:focus {
 
 @media only screen and (max-width: 420px) {
   .grid {
-    display: block; 
+    display: block;
   }
 
-/*---accueil----------------------------*/
+  /*---accueil----------------------------*/
 
   #palette1,
   #palette2,
@@ -462,8 +464,8 @@ input[type="text"]:focus {
     display: none;
   }
 
-  .container-icones{
-  text-align: center;
+  .container-icones {
+    text-align: center;
   }
 
   .icone {
@@ -471,13 +473,14 @@ input[type="text"]:focus {
   }
 
   p.para {
-  text-align: center;
+    text-align: center;
+    font-size: 2px;
   }
 
   .h1-l1 {
     font-size: 100px;
   }
-  
+
   .h1-l2 {
     font-size: 60px;
   }
@@ -486,17 +489,29 @@ input[type="text"]:focus {
     font-size: 74px;
     font-style: italic;
   }
-  
+
   .titres-blob {
-    
     border: 2px solid red;
     justify-content: center;
+    top: 0;
   }
 
   .grid-row-2-column-2 {
-  
     border: 2px solid red;
-margin: 0;
-padding: 0;
+    padding: 0;
+    position: relative;
   }
+
+  #rel1 {
+    border: 2px solid purple;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+  }
+
+  /* .container-blob {
+  position: relative;
+  justify-content: center;
+} */
 }

@@ -1,0 +1,6 @@
+```
+npm init my_portfolio
+npm install --save-dev gulp-cli
+npm install --save-dev gulp-file-include
+npm install --save-dev gulp
+```

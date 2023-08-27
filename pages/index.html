@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Julie</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Julie</title>
+
+    <link href="css/accueil/menu.css" rel="stylesheet" />
+    <link href="css/accueil/grid.css" rel="stylesheet" />
+    <link href="css/accueil/curseur.css" rel="stylesheet" />
+    <link href="css/accueil/barre-laterale.css" rel="stylesheet" />
+    <link href="css/accueil/blob.css" rel="stylesheet" />
+    <link href="css/accueil/palette.css" rel="stylesheet" />
+    <link href="css/accueil/courbe.css" rel="stylesheet" />
+    <link href="css/projets/boule-cristal.css" rel="stylesheet" />
+    <link href="css/a-propos/portrait.css" rel="stylesheet" />
+    <link href="css/contact/formulaire.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+    <!-- FONTS -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:wght@800&family=Playfair+Display:ital,wght@0,900;1,800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="changeCouleur">
+    <!--- Begin accueil.html --->
+    @@include('../includes/curseur.html')
+    <!---GRID-1-------------------->
+    <!-- cette grille contient et
+      structure toute
+      note page
+      elle a 3 colonnes
+    -->
+    <div class="grid">
+      <!--- Begin accueil.html --->
+      @@include('../includes/accueil.html')
+      <!--- Begin projets.html --->
+      @@include('../includes/projets.html')
+    </div>
+    <!--- Begin a-propos.html --->
+    @@include('../includes/a-propos.html')
+    <!--- Begin contact.html --->
+    @@include('../includes/contact.html')
+
+    <!---bibliotheques-------->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+    <!---script--------------->
+    <script src="js/curseur.js"></script>
+    <script src="js/menu.js"></script>
+    <script src="js/palette.js"></script>
+    <script src="js/courbe.js"></script>
+    <script src="js/boule-cristal.js"></script>
+    <script src="js/fond-motifs/fond-motifs.js"></script>
+  </body>
+</html>

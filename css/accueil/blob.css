@@ -1,16 +1,16 @@
 /* BLOB */
 
-#container-blob {
+#container-blob-texte {
   position: relative;
   margin: auto;
 }
 
-#container-blob .blob {
+#container-blob-texte .blob {
   position: relative;
   filter: blur(5px);
 }
 
-#container-blob .bio {
+#container-blob-texte .bio {
   vertical-align: middle;
   text-align: justify;
   color: rgb(21, 21, 166);

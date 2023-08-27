@@ -97,9 +97,56 @@
   </a>
 </div>
 <!---menu----------------------->
-<div class="grid-row-2-column-2"></div>
+<div class="grid-row-2-column-2">
+  <!---BLOB---------------------->
+  <div id="container-blob-texte">
+    <div id="abs1" class="blob">
+      <svg
+        viewBox="0 0 500 500"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        width="100%"
+        id="blobSvg"
+      >
+        <defs>
+          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop class="couleur1Blob couleurBlobJaune" offset="0%"></stop>
+            <stop class="changeCouleur rose" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <path fill="url(#gradient)">
+          <animate
+            attributeName="d"
+            dur="10000ms"
+            repeatCount="indefinite"
+            values="M386,319Q360,388,287.5,396.5Q215,405,120,381.5Q25,358,25,250Q25,142,118.5,113Q212,84,308.5,69.5Q405,55,408.5,152.5Q412,250,386,319Z;
+
+                    M439.5,333.5Q383,417,299,411Q215,405,134,375Q53,345,65,256Q77,167,138,96Q199,25,278,70.5Q357,116,426.5,183Q496,250,439.5,333.5Z;
+                    
+                    M410.5,327Q373,404,293,407.5Q213,411,155.5,367Q98,323,100.5,251Q103,179,158,132.5Q213,86,305,75.5Q397,65,422.5,157.5Q448,250,410.5,327Z;
+                    
+                    M445,342Q396,434,305.5,418.5Q215,403,144.5,369Q74,335,76,251Q78,167,145.5,128.5Q213,90,281.5,107.5Q350,125,422,187.5Q494,250,445,342Z;
+                    
+                    M386,319Q360,388,287.5,396.5Q215,405,120,381.5Q25,358,25,250Q25,142,118.5,113Q212,84,308.5,69.5Q405,55,408.5,152.5Q412,250,386,319Z;"
+          ></animate>
+        </path>
+      </svg>
+    </div>
+    <!---bio----------------------->
+    <div id="rel1" class="changeCouleur bio">
+      <div class="titres-blob">
+        <h1 class="h1-l1 changeCouleur">dev</h1>
+        <h1 class="h1-l2 changeCouleur">front</h1>
+        <h1 class="h1-l3 changeCouleur">end</h1>
+      </div>
+      <p class="para changeCouleur">
+        "A coeur vaillant rien d'impossible" <br class="tt" />Jacques Coeur
+      </p>
+    </div>
+  </div>
+</div>
 <div class="grid-row-2-column-3">
-  <div class="container-menu invisible">
+  <div class="container-menu">
     <div class="top-side changeCouleur"></div>
     <div class="hover">
       <!------------------------------>
@@ -141,56 +188,6 @@
   <div class="vertical-ligne changeCouleur"></div>
   <div class="vertical-txt changeCouleur">julie gonçalves</div>
 </div>
-<!---fusion-cellules----------->
-<div class="grid-row-2-column-2">
-  <!---BLOB---------------------->
-  <div id="container-blob-texte">
-    <div id="abs1" class="blob">
-      <svg
-        viewBox="0 0 500 500"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
-        width="100%"
-        id="blobSvg"
-      >
-        <defs>
-          <linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-            <stop class="couleur1Blob couleurBlobJaune" offset="0%"></stop>
-            <stop class="changeCouleur rose" offset="100%"></stop>
-          </linearGradient>
-        </defs>
-        <path fill="url(#gradient)">
-          <animate
-            attributeName="d"
-            dur="10000ms"
-            repeatCount="indefinite"
-            values="M386,319Q360,388,287.5,396.5Q215,405,120,381.5Q25,358,25,250Q25,142,118.5,113Q212,84,308.5,69.5Q405,55,408.5,152.5Q412,250,386,319Z;
-
-                    M439.5,333.5Q383,417,299,411Q215,405,134,375Q53,345,65,256Q77,167,138,96Q199,25,278,70.5Q357,116,426.5,183Q496,250,439.5,333.5Z;
-                    
-                    M410.5,327Q373,404,293,407.5Q213,411,155.5,367Q98,323,100.5,251Q103,179,158,132.5Q213,86,305,75.5Q397,65,422.5,157.5Q448,250,410.5,327Z;
-                    
-                    M445,342Q396,434,305.5,418.5Q215,403,144.5,369Q74,335,76,251Q78,167,145.5,128.5Q213,90,281.5,107.5Q350,125,422,187.5Q494,250,445,342Z;
-                    
-                    M386,319Q360,388,287.5,396.5Q215,405,120,381.5Q25,358,25,250Q25,142,118.5,113Q212,84,308.5,69.5Q405,55,408.5,152.5Q412,250,386,319Z;"
-          ></animate>
-        </path>
-      </svg>
-    </div>
-    <!---bio----------------------->
-    <div id="rel1" class="changeCouleur invisible bio">
-      <div class="titres-blob">
-        <h1 class="h1-l1 changeCouleur">dev</h1>
-        <h1 class="h1-l2 changeCouleur">front</h1>
-        <h1 class="h1-l3 changeCouleur">end</h1>
-      </div>
-      <p class="para changeCouleur">
-        "A coeur vaillant rien d'impossible" <br class="tt" />Jacques Coeur
-      </p>
-    </div>
-  </div>
-</div>
-<div class="grid-row-3-column-3"></div>
 
       <!--- Begin projets.html --->
       <!-- PROJETS -->
@@ -250,17 +247,17 @@
 <!----------------------------------------------------->
 
 <!---GRID-2------------------->
-<div id="a-propos" class="invisible changeCouleur">
-  <div class="container-grid-et-carte invisible">
+<div id="a-propos" class="changeCouleur">
+  <div class="container-grid-et-carte">
     <!---titre-"a-propos"--------->
-    <div class="grid-2 invisible">
+    <div class="grid-2">
       <div class="titre-a-propos">
         <h1 class="h2-l1-ap changeCouleur">A pro</h1>
         <h1 class="h2-l2-ap changeCouleur">pos</h1>
       </div>
     </div>
     <!---carte-texte-------------->
-    <div class="container-carte-texte invisible">
+    <div class="container-carte-texte">
       <img class="carte" src="css/a-propos/carte.svg" alt="carte" />
       <div class="text-carte">
         <h4 class="titre-carte">Developpeuse front-end</h4>
@@ -275,15 +272,15 @@
     </div>
     <!---carte-image-------------->
     <img
-      class="carte-portrait invisible"
+      class="carte-portrait"
       src="css/a-propos/carte-portrait.svg"
       alt="carte"
     />
   </div>
 </div>
 
-    <!--- Begin contact.html --->
-    <div id="contact">
+      <!--- Begin contact.html --->
+      <div id="contact">
   <form class="formulaire">
     <h4 class="titre-contact changeCouleur">con</h4>
     <h4 class="titre-contact-it changeCouleur">tact</h4>
@@ -313,6 +310,7 @@
   </form>
 </div>
 
+    </div>
 
     <!---bibliotheques-------->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>

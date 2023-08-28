@@ -11,7 +11,7 @@ var gridContainer = document.querySelector(".grid-2");
 function rajouterMotifs(largeurDeFenetre) {
   var copy = 25; // Nombre de copie à faire
   if (largeurDeFenetre <= 420) {
-    copy = 50;
+    copy = 75;
   }
 
   // J ajoute 1 tant que i est inferieur a copy

@@ -28,9 +28,9 @@
 }
 
 .carte {
-    width: 100%;
-    position: absolute;
-  }
+  width: 100%;
+  position: absolute;
+}
 
 .text-carte {
   padding: 40% 10% 0 10%;
@@ -94,9 +94,8 @@ p.p-carte {
 /*---MEDIAS-QUERIES--------------------*/
 
 @media only screen and (max-width: 420px) {
-  .titre-a-propos {
-    border: 2px solid red;
-  }
+
+  /*---Titre-"a-propos"-------------------*/
 
   .h2-l1-ap {
     font-size: 52px;
@@ -109,5 +108,33 @@ p.p-carte {
   .titre-a-propos {
     top: 0;
     bottom: revert;
+  }
+/*---Carte-texte------------------------*/
+
+  .container-carte-texte {
+    position: absolute;
+    width: 68%;
+    top: 30%;
+    left: 16%;
+  }
+
+  p.p-carte {
+    font-size: 1em;
+    padding: 1% 5%;
+  }
+
+  h4.titre-carte {
+    font-size: 1.1em;
+  }
+
+  .text-carte {
+    padding: 32% 10% 0 10%;
+  }
+/*---Carte-portrait---------------------*/
+
+  .carte-portrait {
+    top: 15%;
+    left: 62%;
+    width: 28%;
   }
 }

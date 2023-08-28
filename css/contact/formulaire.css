@@ -50,3 +50,12 @@ input.btn-envoyer {
   letter-spacing: 0.3em;
   justify-content: center;
 }
+
+/*-------------------------------------*/
+/*---MEDIAS-QUERIES--------------------*/
+
+@media only screen and (max-width: 420px) {
+  .titre-contact,.titre-contact-it {
+display: inline;
+  }
+}

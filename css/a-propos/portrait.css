@@ -89,3 +89,25 @@ p.p-carte {
   line-height: 0px;
   color: #2d16c1;
 }
+
+/*-------------------------------------*/
+/*---MEDIAS-QUERIES--------------------*/
+
+@media only screen and (max-width: 420px) {
+  .titre-a-propos {
+    border: 2px solid red;
+  }
+
+  .h2-l1-ap {
+    font-size: 52px;
+  }
+
+  .h2-l2-ap {
+    font-size: 70px;
+  }
+
+  .titre-a-propos {
+    top: 0;
+    bottom: revert;
+  }
+}

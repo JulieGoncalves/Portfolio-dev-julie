@@ -52,3 +52,47 @@
 .tt {
   text-align: end;
 }
+
+/*-------------------------------------*/
+/*---MEDIAS-QUERIES--------------------*/
+
+@media only screen and (max-width: 420px) {
+
+.container-icones {
+  text-align: center;
+}
+
+.icone {
+  display: inline-block;
+}
+
+p.para {
+  text-align: center;
+  font-size: 2px;
+}
+
+.h1-l1 {
+  font-size: 110px;
+}
+
+.h1-l2 {
+  font-size: 65px;
+}
+
+.h1-l3 {
+  font-size: 80px;
+  font-style: italic;
+}
+
+.titres-blob {
+  border: 2px solid red;
+  justify-content: center;
+  top: 0;
+}
+
+.grid-row-2-column-2 {
+  border: 2px solid red;
+  padding: 0;
+  position: relative;
+}
+}

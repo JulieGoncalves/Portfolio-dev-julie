@@ -90,7 +90,9 @@ h3 {
   display: none;
 }
 
+/*-------------------------------------*/
 /*---MEDIAS-QUERIES--------------------*/
+
 
 @media only screen and (max-width: 420px) {
   .vertical-txt-p {
@@ -113,4 +115,13 @@ h3 {
   .grid-row-4-column-3 {
     grid-area: 4 / 1 / 5 / 2;
   }
+
+  .h2-l1-p {
+    font-size: 70px;
+  }
+  
+  .h2-l2-p {
+    font-size: 56px;
+  }
 }
+

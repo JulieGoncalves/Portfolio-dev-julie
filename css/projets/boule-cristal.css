@@ -89,3 +89,28 @@ h3 {
 .cachecristal {
   display: none;
 }
+
+/*---MEDIAS-QUERIES--------------------*/
+
+@media only screen and (max-width: 420px) {
+  .vertical-txt-p {
+    writing-mode: horizontal-tb;
+    transform: none;
+    padding: 0% 0 10% 0;
+    margin: 0px;
+  }
+
+  .grid-row-4-column-1 {
+    padding: 20% 5%;
+    margin: 0;
+    grid-area: 6 / 1 / 7 / 2;
+  }
+
+  .grid-row-4-column-2 {
+    margin: 0;
+  }
+
+  .grid-row-4-column-3 {
+    grid-area: 4 / 1 / 5 / 2;
+  }
+}

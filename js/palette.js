@@ -72,7 +72,6 @@ btnRose.addEventListener("click", function () {
   bouleCristalRose.classList.remove("cachecristal");
 });
 
-
 function initBouleConfig() {
   // Lorsque je clique sur la palette rose, je souhaite
   // afficher la boule rose et cacher les autres boules

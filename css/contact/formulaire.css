@@ -7,7 +7,7 @@
   border-radius: 10px;
 }
 
-h4.titre-contact-it,
+.titre-contact-it,
 .titre-contact {
   font-size: 3.5em;
   font-family: "Playfair Display";
@@ -16,7 +16,7 @@ h4.titre-contact-it,
   margin: 0;
 }
 
-h4.titre-contact-it {
+.titre-contact-it {
   font-style: italic;
 }
 
@@ -55,7 +55,9 @@ input.btn-envoyer {
 /*---MEDIAS-QUERIES--------------------*/
 
 @media only screen and (max-width: 420px) {
-  .titre-contact,.titre-contact-it {
-display: inline;
-  }
+.aligne {
+display: flex;
+align-items: center;
+transform: translate(-20%, -20%);
+ }
 }

@@ -98,7 +98,7 @@ h3 {
   .vertical-txt-p {
     writing-mode: horizontal-tb;
     transform: none;
-    padding: 0% 0 10% 0;
+    padding: 0 0 10% 0;
     margin: 0px;
   }
 
@@ -114,6 +114,10 @@ h3 {
 
   .grid-row-4-column-3 {
     grid-area: 4 / 1 / 5 / 2;
+  }
+
+  .titre-projets {
+    padding-right: 4%;
   }
 
   .h2-l1-p {

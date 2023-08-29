@@ -110,7 +110,6 @@ p.p-carte {
     bottom: revert;
   }
 /*---Carte-texte------------------------*/
-
   .container-carte-texte {
     position: absolute;
     width: 68%;
@@ -119,8 +118,9 @@ p.p-carte {
   }
 
   p.p-carte {
-    font-size: 1em;
-    padding: 1% 5%;
+    font-size: 0.85em;
+    padding: 0 4%;
+    margin: 4% 0;
   }
 
   h4.titre-carte {
@@ -137,4 +137,13 @@ p.p-carte {
     left: 62%;
     width: 28%;
   }
+}
+
+@media (min-width: 420px) and (max-width: 768px) {
+h2 {
+  margin:0;
+}
+.text-carte {
+  font-size: 0.7em;;
+}
 }

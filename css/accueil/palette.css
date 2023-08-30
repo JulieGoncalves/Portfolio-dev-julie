@@ -109,6 +109,7 @@ h3 {
 /*---PROJET-----------------------------*/
 
 .linear-gradient {
+  margin-top: 150px;
   background: linear-gradient(#ffc6f5, #2d16c1);
 }
 
@@ -446,7 +447,6 @@ input[type="text"]:focus {
   color: white;
 }
 
-
 /*-------------------------------------*/
 /*---MEDIAS-QUERIES--------------------*/
 
@@ -456,26 +456,28 @@ input[type="text"]:focus {
     grid-template-columns: 1fr;
   }
 
-.grid > * {
-  display: block;
-}
+  .grid > * {
+    display: block;
+  }
 
-.grid-2 {
-  border : 2px solid red;
-}
-/*---accueil----------------------------*/
+  .linear-gradient {
+    margin-top: 0;}
 
-.palette,
-#palette1,
-#palette2,
-#palette3,
-.container-menu {
-  display: none;
-}
+  /*---accueil----------------------------*/
 
-.grid-row-1-column-1,.grid-row-1-column-2,.grid-row-2-column-3,.grid-row-3-column-1,
-.grid-row-1-column-3 {
-  display: none;
-}  
+  .palette,
+  #palette1,
+  #palette2,
+  #palette3,
+  .container-menu {
+    display: none;
+  }
 
+  .grid-row-1-column-1,
+  .grid-row-1-column-2,
+  .grid-row-2-column-3,
+  .grid-row-3-column-1,
+  .grid-row-1-column-3 {
+    display: none;
+  }
 }

@@ -20,7 +20,7 @@
   font-weight: bold;
   font-size: 25px;
   padding: 0 15%;
-  margin: -20% auto ;
+  margin: -20% auto;
 }
 
 #rel1 .para {
@@ -57,42 +57,39 @@
 /*---MEDIAS-QUERIES--------------------*/
 
 @media only screen and (max-width: 420px) {
+  .container-icones {
+    text-align: center;
+  }
 
-.container-icones {
-  text-align: center;
-}
+  .icone {
+    display: inline-block;
+  }
 
-.icone {
-  display: inline-block;
-}
+  p.para {
+    text-align: center;
+    font-size: 2px;
+  }
 
-p.para {
-  text-align: center;
-  font-size: 2px;
-}
+  .h1-l1 {
+    font-size: 110px;
+  }
 
-.h1-l1 {
-  font-size: 110px;
-}
+  .h1-l2 {
+    font-size: 65px;
+  }
 
-.h1-l2 {
-  font-size: 65px;
-}
+  .h1-l3 {
+    font-size: 80px;
+    font-style: italic;
+  }
 
-.h1-l3 {
-  font-size: 80px;
-  font-style: italic;
-}
+  .titres-blob {
+    justify-content: center;
+    top: 0;
+  }
 
-.titres-blob {
-  border: 2px solid red;
-  justify-content: center;
-  top: 0;
-}
-
-.grid-row-2-column-2 {
-  border: 2px solid red;
-  padding: 0;
-  position: relative;
-}
+  .grid-row-2-column-2 {
+    padding: 0;
+    position: relative;
+  }
 }

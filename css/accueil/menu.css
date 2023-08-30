@@ -70,6 +70,7 @@ body {
   padding: 0;
 }
 
-a:hover, a {
+a:hover,
+a {
   text-decoration: none;
 }

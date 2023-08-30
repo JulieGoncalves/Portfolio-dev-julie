@@ -4,20 +4,20 @@
   position: relative;
   display: block;
   padding: 5px;
-  margin: auto ;
+  margin: auto;
   top: 10%;
-  width : 25px;
-  height : 25px;
+  width: 25px;
+  height: 25px;
 }
 
 .vertical-ligne {
   height: 100px;
   margin-left: 48%;
-  margin-top:70%;
+  margin-top: 70%;
 }
 
 .vertical-txt {
-  font-family: 'Bodoni Moda', serif;
+  font-family: "Bodoni Moda", serif;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   padding: 50% 45% 50% 50%;
@@ -31,7 +31,8 @@
 /*---Medias-queries---------------------*/
 
 @media only screen and (max-width: 420px) {
-  .vertical-ligne,.vertical-txt {
+  .vertical-ligne,
+  .vertical-txt {
     /* display: none; */
     visibility: hidden;
   }

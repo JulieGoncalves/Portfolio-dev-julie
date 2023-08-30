@@ -55,9 +55,15 @@ input.btn-envoyer {
 /*---MEDIAS-QUERIES--------------------*/
 
 @media only screen and (max-width: 420px) {
-.aligne {
-display: flex;
-align-items: center;
-transform: translate(-20%, -20%);
- }
+  .aligne {
+    display: flex;
+    align-items: center;
+    transform: translate(-20%, -20%);
+  }
+  .formulaire {
+    padding: 5%;
+  }
+  input.btn-envoyer {
+    width: 50%;
+  }
 }

@@ -70,5 +70,17 @@
 }
 
 .titre-projets {
-    border: 2px solid red;
+  border: 2px solid red;
+}
+
+.grid-2 {
+  border: 2px solid red;
+}
+
+.titres-blob {
+  border: 2px solid red;
+}
+
+.grid-row-2-column-2 {
+  border: 2px solid red;
 }

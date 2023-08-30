@@ -139,7 +139,7 @@ p.p-carte {
   }
 }
 
-@media (min-width: 420px) and (max-width: 768px) {
+@media (min-width: 420px) and (max-width: 1050px) {
 h2 {
   margin:0;
 }

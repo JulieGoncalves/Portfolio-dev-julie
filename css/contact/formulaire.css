@@ -62,6 +62,7 @@ input.btn-envoyer {
   }
   .formulaire {
     padding: 5%;
+    margin-top: 50px;
   }
   input.btn-envoyer {
     width: 50%;

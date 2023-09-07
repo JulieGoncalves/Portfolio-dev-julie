@@ -73,7 +73,7 @@ h3 {
   font-family: "Bodoni Moda", serif;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
-  /* padding: 50% 45% 50% 50%; */
+  padding: 50% 45% 50% 50%;
   margin: auto;
   text-align: center;
   font-weight: bold;
@@ -81,10 +81,12 @@ h3 {
   text-transform: uppercase;
   font-size: 12px;
   color: #2d16c1;
+  bottom: 0;
 }
 
 .grid-row-4-column-1 {
   align-items: center;
+  justify-content: center;
 }
 
 /*---Changement-de-SVG-au-click---------*/
@@ -106,7 +108,7 @@ h3 {
 
   .grid-row-4-column-1 {
     padding: 20% 5%;
-    margin: 0;
+    margin: 0 0 20% 0;
     grid-area: 6 / 1 / 7 / 2;
   }
 
@@ -115,6 +117,7 @@ h3 {
   }
 
   .grid-row-4-column-3 {
+    margin-top : 60%;
     grid-area: 4 / 1 / 5 / 2;
   }
 

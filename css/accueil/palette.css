@@ -4,6 +4,7 @@
 .palette {
   padding: 5% 0;
   text-align: end;
+  margin-right: 5%;
 }
 
 #palette1,
@@ -480,4 +481,10 @@ input[type="text"]:focus {
   .grid-row-1-column-3 {
     display: none;
   }
+}
+
+@media (min-width: 420px) and (max-width: 1050px) {
+.palette {
+  margin-right: 0;
+}
 }

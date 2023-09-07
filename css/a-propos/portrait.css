@@ -94,7 +94,6 @@ p.p-carte {
 /*---MEDIAS-QUERIES--------------------*/
 
 @media only screen and (max-width: 420px) {
-
   /*---Titre-"a-propos"-------------------*/
 
   .h2-l1-ap {
@@ -109,7 +108,8 @@ p.p-carte {
     top: 0;
     bottom: revert;
   }
-/*---Carte-texte------------------------*/
+
+  /*---Carte-texte------------------------*/
   .container-carte-texte {
     position: absolute;
     width: 68%;
@@ -124,13 +124,13 @@ p.p-carte {
   }
 
   h4.titre-carte {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 
   .text-carte {
     padding: 32% 10% 0 10%;
   }
-/*---Carte-portrait---------------------*/
+  /*---Carte-portrait---------------------*/
 
   .carte-portrait {
     top: 15%;
@@ -139,11 +139,13 @@ p.p-carte {
   }
 }
 
+/*-------------------------------------*/
 @media (min-width: 420px) and (max-width: 1050px) {
-h2 {
-  margin:0;
-}
-.text-carte {
-  font-size: 0.7em;;
-}
+  h2 {
+    margin: 0;
+  }
+
+  .text-carte {
+    font-size: 0.7em;
+  }
 }

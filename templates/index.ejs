@@ -35,7 +35,7 @@
 
   <body class="changeCouleur">
     <!--- Begin accueil.html --->
-    @@include('../includes/curseur.html')
+    <%- include('includes/curseur', {}); %>
     <!---GRID-1-------------------->
     <!-- cette grille contient et
       structure toute
@@ -44,15 +44,15 @@
     -->
     <div class="grid">
       <!--- Begin accueil.html --->
-      @@include('../includes/accueil.html')
+      <%- include('includes/accueil', {}); %>
       <!--- Begin projets.html --->
-      @@include('../includes/projets.html')
+      <%- include('includes/projets', {}); %>
     </div>
     <div class="linear-gradient changeCouleur">
       <!--- Begin a-propos.html --->
-      @@include('../includes/a-propos.html')
+      <%- include('includes/a-propos', {}); %>
       <!--- Begin contact.html --->
-      @@include('../includes/contact.html')
+      <%- include('includes/contact', {}); %>
     </div>
 
     <!---bibliotheques-------->

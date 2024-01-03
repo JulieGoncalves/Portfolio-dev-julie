@@ -1,7 +1,6 @@
 {
   "name": "my_portfolio",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "gulp index",
@@ -10,8 +9,7 @@
   "author": "Julie Goncalves",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^4.0.2",
-    "gulp-cli": "^2.3.0",
-    "gulp-file-include": "^2.3.0"
-  }
+    "ejs": "^3.1.9"
+  },
+  "description": ""
 }

@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 272 302" width="100" height="100">
+	<title>Nouveau projet</title>
+	<style>
+		.s0 {
+			fill: white;
+			stroke: white;
+        	stroke-width: 5;
+			filter:blur(10px); 
+			opacity: 0.5;
+		} 
+	</style>
+	<path id="Forme-1" class="s0" d="m66 77c0 0 59.2-86.6 88-56 28.8 30.6 112.7 64.8 98 101-14.7 36.2 9.3 90.1-39 107-48.3 16.9-75.4 73.1-116 52-40.6-21.1-92.7-99.7-67-129 25.7-29.3 36-75 36-75z"/>
+</svg>

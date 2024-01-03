@@ -22,6 +22,7 @@
     <link href="css/a-propos/portrait.css" rel="stylesheet" />
     <link href="css/contact/formulaire.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
+    <link href="css/projets/canvas.css" rel="stylesheet" />
     <link rel="icon" href="favicon.jpg" />
 
     <!-- FONTS -->
@@ -197,6 +198,9 @@
 
 <!-- conteneur de gauche -->
 <div class="grid-row-4-column-1">
+  <div class="container-canvas">
+    <canvas id="canvas"></canvas>
+    </div>
   <div class="vertical-txt-p changeCouleur">Projets incroyables en cours</div>
 </div>
 
@@ -242,13 +246,32 @@
     <h1 class="h2-l2-p changeCouleur">jets</h1>
   </div>
 </div>
+<!-- </div> -->
 
+<!-- <div class="1"></div>
+<div class="2"></div>
+<div class="3"></div>
+<div class="container-row-4">
+  <canvas id="canvas"></canvas>
+<div class="4"></div>
+<div class="5"></div>
+<div class="6"></div>
+
+</div> -->
+
+<!-- je souhaite que mon canvas s applique sur/ en supperposition sur les trois div du container-row-4 -->
+<!-- j'ai mis "container-row-4" en position relative et "canvas" en position absolute -->
+<!-- pourtant mon animation canvas s applique plus ha a partir de la div 1  -->
+
+
+<!-- le tout est contenu dans une grid general  -->
+<!-- ce qui casse l organisation, lorsque je rajoute "container-row-4, pour inserer mon canvas -->
+<!-- comment puis regler ce probleme ? -->
     </div>
     <div class="linear-gradient changeCouleur">
       <!--- Begin a-propos.html --->
       <!------------------------------------ A PROPOS ------->
 <!----------------------------------------------------->
-
 <!---GRID-2------------------->
 <div id="a-propos" class="changeCouleur">
   <div class="container-grid-et-carte">
@@ -282,7 +305,8 @@
 </div>
 
       <!--- Begin contact.html --->
-      <div id="contact">
+      
+<div id="contact">
   <form class="formulaire">
     <div class="aligne">
     <h4 class="titre-contact changeCouleur">con</h4>
@@ -331,5 +355,6 @@
     <script src="js/courbe.js"></script>
     <script src="js/boule-cristal.js"></script>
     <script src="js/fond-motifs/fond-motifs.js"></script>
+    <script src="js/effet-fumee.js"></script>
   </body>
 </html>

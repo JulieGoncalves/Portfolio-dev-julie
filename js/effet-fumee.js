@@ -9,7 +9,7 @@ function genererParticules() {
     espaceEntreParticules;
   var nbParticules = canvas.width / espaceEntreParticules;
 
-  var totalImages = 1000/2;
+  var totalImages = 1000 / 2;
   var nbImagesParInterval = totalImages / nbParticules;
 
   for (let i = 0; i < nbParticules; i++) {
@@ -28,12 +28,11 @@ function genererParticules() {
       }
 
       positionEnY = milieu + Math.random() * proportion * canvas.height * signe;
-      
+
       positionEnY = milieu + Math.random() * proportion * canvas.height;
       if (Math.random() > 0.5) {
         positionEnY = milieu - Math.random() * proportion * canvas.height;
       }
-
     } else {
       positionEnY = canvas.height / 2;
     }
@@ -77,7 +76,6 @@ function dessin(img, canvas, ctx, tabParticules, numImage) {
 
     if (debutDisparition <= numImage) {
       if (alpha <= 0) {
-
       } else {
         alpha = Math.max(0, alpha - 1 / 100);
         particule.set("alpha", alpha);
@@ -87,7 +85,7 @@ function dessin(img, canvas, ctx, tabParticules, numImage) {
     var rotationInitiale = particule.get("rotationInitiale");
     var largeurParticule = particule.get("largeurParticule");
     var hauteurParticule = particule.get("hauteurParticule");
- 
+
     ctx.rotate(convertDegreToRadian(numImage / 5 + rotationInitiale));
     ctx.drawImage(
       img,
@@ -129,7 +127,7 @@ async function lancementAnimation(img, canvas, ctx) {
   var tabParticules = genererParticules();
   var latest = numeroImageGlobal;
 
-  for (; numeroImageGlobal < 1000/2; numeroImageGlobal++) {
+  for (; numeroImageGlobal < 1000 / 2; numeroImageGlobal++) {
     if (numeroImageGlobal != latest + 1) {
       console.log("resize detect");
       tabParticules = genererParticules();
@@ -147,8 +145,7 @@ img.onload = async function (e) {
   console.log(e);
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
-
-  lancementAnimation(img, canvas, ctx);
+//   lancementAnimation(img, canvas, ctx);
 };
 
 function debounce(func) {
@@ -166,3 +163,12 @@ window.addEventListener(
     numeroImageGlobal = 0;
   })
 );
+
+
+const containerCanvas = document.getElementById("canvas");
+
+containerCanvas.addEventListener("mouseenter", (event) => {
+    lancementAnimation(img, canvas, ctx);
+    console.log(containerCanvas + "in");
+});
+

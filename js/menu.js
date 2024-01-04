@@ -32,6 +32,9 @@
     });
 
     containerMenu.addEventListener("mouseenter", function (eventMouseMove) {
+      const position = $(".container").offset();
+      theTop = position.top;
+      theLeft = position.left;
       // quand je suis dans le menu
       // mouse mouve
       console.log("a l interieur horizontal");

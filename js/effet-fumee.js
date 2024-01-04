@@ -145,7 +145,7 @@ img.onload = async function (e) {
   console.log(e);
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
-//   lancementAnimation(img, canvas, ctx);
+  lancementAnimation(img, canvas, ctx);
 };
 
 function debounce(func) {
@@ -168,6 +168,7 @@ window.addEventListener(
 const containerCanvas = document.getElementById("canvas");
 
 containerCanvas.addEventListener("mouseenter", (event) => {
+  console.log(containerCanvas + "in");
     lancementAnimation(img, canvas, ctx);
     console.log(containerCanvas + "in");
 });

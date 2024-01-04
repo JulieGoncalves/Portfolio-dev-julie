@@ -9,11 +9,14 @@
     var containerHeight = $(".container").outerHeight();
     var containerWidth = $(".container").outerWidth();
 
-    document.addEventListener("mousemove", function (eventMouseMove) {
+    var containerMenu = document.querySelector(".container");
+    containerMenu.addEventListener("mouseout", function (eventMouseMove) {
+      // document.addEventListener("mousemove", function (eventMouseMove) {
       const position = $(".container").offset();
       theTop = position.top;
       theLeft = position.left;
       // console.log(theLeft);
+
       if (
         eventMouseMove.pageX < theLeft ||
         eventMouseMove.pageX > theLeft + containerWidth
@@ -28,6 +31,9 @@
         $(".bottom-side").css({
           height: 0,
         });
+
+
+        // mouse mouve
       } else {
         console.log("a l interieur horizontal");
         // event.page = evenement qui recupere la position de ma souris
@@ -40,7 +46,11 @@
 
         // On calcule la nouvelle hauteur de la zone du bas
         var bottomHeight =
-          containerHeight - (eventMouseMove.pageY - theTop + focusZoneHeight - focusZoneHeight / 2);
+          containerHeight -
+          (eventMouseMove.pageY -
+            theTop +
+            focusZoneHeight -
+            focusZoneHeight / 2);
         $(".bottom-side").css({
           top:
             focusZoneHeight +

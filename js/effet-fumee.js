@@ -28,7 +28,6 @@ function genererParticules() {
       }
 
       positionEnY = milieu + Math.random() * proportion * canvas.height * signe;
-
       positionEnY = milieu + Math.random() * proportion * canvas.height;
       if (Math.random() > 0.5) {
         positionEnY = milieu - Math.random() * proportion * canvas.height;
@@ -148,7 +147,6 @@ img.onload = async function (e) {
   console.log(e);
   var canvas = document.getElementById("canvas");
   var ctx = canvas.getContext("2d");
-  // lancementAnimation(img, canvas, ctx);
 };
 
 function debounce(func) {

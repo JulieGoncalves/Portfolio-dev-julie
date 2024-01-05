@@ -6,12 +6,11 @@ var motifs = [cle, oeil, lune, soleil];
 var gridContainer = document.querySelector(".grid-2");
 
 function rajouterMotifs(largeurDeFenetre) {
-  var copy = 25; // Nombre de copie à faire
+  var copy = 25; 
   if (largeurDeFenetre <= 420) {
     copy = 75;
   }
 
-  // Nettoyer la grille avant d'ajouter de nouveaux motifs
   gridContainer.innerHTML = "";
 
   for (var i = 0; i < copy; i++) {
@@ -37,10 +36,8 @@ function handleResize() {
   rajouterMotifs(largeurDeFenetre);
 }
 
-// Ajouter un écouteur d'événement pour l'événement 'resize'
 window.addEventListener('resize', handleResize);
 
-// Appeler la fonction une première fois pour afficher les motifs initiaux
 handleResize();
 
 

@@ -40,8 +40,8 @@ console.log("ici");
         containerHeight -
         (eventMouseMove.pageY - theTop + focusZoneHeight - focusZoneHeight / 2);
       $(".bottom-side").css({
-        top:
-          focusZoneHeight + eventMouseMove.pageY - theTop - focusZoneHeight / 2,
+        top: focusZoneHeight + eventMouseMove.pageY - theTop - focusZoneHeight / 2,
+        height: bottomHeight,
       });
     });
   }

@@ -113,6 +113,7 @@ function sleep(ms) {
 const img = new Image();
 img.src = "particule.svg";
 var numeroImageGlobal = 0;
+var animationFinie = true;
 
 /**
  * lancementAnimation est responsable de dessiner
@@ -124,6 +125,7 @@ var numeroImageGlobal = 0;
  */
 
 async function lancementAnimation(img, canvas, ctx) {
+  animationFinie = false;
   var tabParticules = genererParticules();
   var latest = numeroImageGlobal;
 
@@ -137,7 +139,8 @@ async function lancementAnimation(img, canvas, ctx) {
     await sleep(3);
   }
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-  console.log("fini");
+  animationFinie = true;
+  numeroImageGlobal = 0;
 }
 
 img.onload = async function (e) {
@@ -164,12 +167,20 @@ window.addEventListener(
   })
 );
 
-
-const containerCanvas = document.getElementById("canvas");
-console.log(containerCanvas);
-containerCanvas.addEventListener("mousemove", (event) => {
-  console.log(containerCanvas + "in");
+function gestionnaireEvenement(event) {
+  var canvas = document.getElementById("canvas");
+  var ctx = canvas.getContext("2d");
+  if (animationFinie) {
     lancementAnimation(img, canvas, ctx);
-    console.log(containerCanvas + "in");
-});
+  } else {
+    console.log("non finie");
+  }
+}
 
+const divText = document.getElementById("anim1");
+const containerBoule = document.getElementById("anim2");
+const divTitre = document.getElementById("anim3");
+
+divText.addEventListener("mouseenter", gestionnaireEvenement);
+containerBoule.addEventListener("mouseenter", gestionnaireEvenement);
+divTitre.addEventListener("mouseenter", gestionnaireEvenement);

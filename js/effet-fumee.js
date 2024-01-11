@@ -1,28 +1,28 @@
 const espaceEntreParticules = 30;
 
 function genererParticules() {
-  var tableau = [];
-  var hauteurParticule = 375;
-  var largeurParticule = 450;
-  var positionEnX = -largeurParticule / 2;
+  let tableau = [];
+  let hauteurParticule = 375;
+  let largeurParticule = 450;
+  let positionEnX = -largeurParticule / 2;
   (canvas.width - espaceEntreParticules) / largeurParticule +
     espaceEntreParticules;
-  var nbParticules = canvas.width / espaceEntreParticules;
+  let nbParticules = canvas.width / espaceEntreParticules;
 
-  var totalImages = 1000 / 2;
-  var nbImagesParInterval = totalImages / nbParticules;
+  let totalImages = 1000 / 2;
+  let nbImagesParInterval = totalImages / nbParticules;
 
   for (let i = 0; i < nbParticules; i++) {
-    var positionEnY;
-    var nbImagesPourDisparition = 100;
-    var finDisparition = (i + 1) * nbImagesParInterval;
-    var debutDisparition = finDisparition - nbImagesPourDisparition;
+    let positionEnY;
+    let nbImagesPourDisparition = 100;
+    let finDisparition = (i + 1) * nbImagesParInterval;
+    let debutDisparition = finDisparition - nbImagesPourDisparition;
 
     if (i <= (2 * nbParticules) / 3) {
-      var milieu = canvas.height / 2;
-      var proportion = 1 / 6;
+      let milieu = canvas.height / 2;
+      let proportion = 1 / 6;
 
-      var signe = 1;
+      let signe = 1;
       if (Math.random() > 0.5) {
         signe = -1;
       }
@@ -36,9 +36,9 @@ function genererParticules() {
       positionEnY = canvas.height / 2;
     }
 
-    var coefGaranti = -0.8 * (i / nbParticules) + 1;
-    var coefVariable = Math.random() * 0.8;
-    var coefMultiplicateur = coefGaranti + coefVariable;
+    let coefGaranti = -0.8 * (i / nbParticules) + 1;
+    let coefVariable = Math.random() * 0.8;
+    let coefMultiplicateur = coefGaranti + coefVariable;
     hauteurParticule = 250 * coefMultiplicateur;
     largeurParticule = 300 * coefMultiplicateur;
 
